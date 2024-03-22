@@ -2,13 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+h1,h2,h3,h4,h5 {
+  font-family: var(--font-heading);
+}
+
 p {
-  line-height: 1.65rem;
   margin-bottom: 1.35rem;
-  font-family: var(--font-raleway);
 }
 
 .bg-fairy-floss {
-  background: url('../../public/assets/images/bg-fairy-floss-01.jpg') no-repeat center;
+  /* background: url('../../public/assets/images/bg-fairy-floss-01.jpg') no-repeat center; */
   background-size: cover;
+}
+
+.bg-connections {
+  background: url('../../public/assets/images/connections.svg') no-repeat bottom;
+  background-size:initial;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -10;
+}
+
+#services-gallery .photo {
+  overflow: hidden;
+  background-size: contain;
+}
+
+#services-gallery img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transform: scale(1);
+  transition: 300ms;
+  filter: saturate(.35);
+}
+
+#services-gallery img:hover {
+  transform: scale(1.1) rotate(-2deg);
+  filter: saturate(.8);
 }

@@ -10,8 +10,10 @@ function Header() {
       <NavBarMain />
       <HeroHome01 />
 
+      <div className="bg-connections w-full max-h-full h-full absolute -z-10 bg-slate-200 rotate-90 -bottom-32"></div>
+
       {/* solid background */}
-      <div className='w-full h-full absolute top-0 left-0 bg-sky-50 bg-fairy-floss'></div>
+      <div className='w-full h-full absolute top-0 left-0 bg-indigo-50 -z-20'></div>
 
     </div>
   )

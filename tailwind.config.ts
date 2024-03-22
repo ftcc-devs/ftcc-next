@@ -7,6 +7,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -31,8 +38,8 @@ const config: Config = {
         glow: '0 0 20px hsl(240,60%,70%)',
       },
       fontFamily: {
-        heading: ['Raleway', 'sans-serif'],
-        body: ['Petrona', 'serif'],
+        heading: ['var(--font-heading)'],
+        body: ['var(--font-body)'],
       },
     },
   },
