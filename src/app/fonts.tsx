@@ -1,6 +1,6 @@
-import { Noto_Sans, Noto_Serif } from "next/font/google";
+import { Noto_Sans, Noto_Serif, Gantari, Albert_Sans } from "next/font/google";
 
-export const fontheading = Noto_Sans({
+export const fontheading = Gantari({
   subsets: ["latin"],
   variable: '--font-heading',
   display: 'swap',

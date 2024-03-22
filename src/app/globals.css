@@ -4,6 +4,7 @@
 
 h1,h2,h3,h4,h5 {
   font-family: var(--font-heading);
+  line-height: 1.25rem;
 }
 
 p {
@@ -11,7 +12,7 @@ p {
 }
 
 .bg-fairy-floss {
-  /* background: url('../../public/assets/images/bg-fairy-floss-01.jpg') no-repeat center; */
+  background: url('../../public/assets/images/bg-fairy-floss-01.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -19,9 +20,6 @@ p {
   background: url('../../public/assets/images/connections.svg') no-repeat bottom;
   background-size:initial;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: -10;
 }
 
 #services-gallery .photo {
@@ -41,4 +39,16 @@ p {
 #services-gallery img:hover {
   transform: scale(1.1) rotate(-2deg);
   filter: saturate(.8);
+}
+
+#mediamentions h4::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: #7cbb1f;
+  left: -1rem;
+  top: .5rem;
+  z-index: 20;
+  border-radius: 50%;
 }

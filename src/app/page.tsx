@@ -6,6 +6,7 @@ import { fontheading, fontbody } from "./fonts";
 import SectionTestimonial from "./parts/SectionTestimonial";
 import SectionJoin from "./parts/SectionJoin";
 import SectionContact from "./parts/SectionContact";
+import SectionNews from "./parts/SectionNews";
 
 export default function Home() {
   return (
@@ -13,9 +14,10 @@ export default function Home() {
 
       <Header />
       <SectionAbout />
-      <SectionTestimonial />
       <SectionServices />
+      <SectionTestimonial />
       <SectionJoin />
+      <SectionNews />
       <SectionContact />
 
       <Footer />
