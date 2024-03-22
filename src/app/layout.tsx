@@ -5,7 +5,11 @@ import { openGraphImage } from "./shared-metadata";
 export const metadata: Metadata = {
   title: "FTCC",
   description: "Filipino Tech Community Canberra",
-  ...openGraphImage, 
+  ...openGraphImage,
+  icons: {
+    icon: "/favicon.ico",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({

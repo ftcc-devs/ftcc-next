@@ -22,7 +22,7 @@ function SectionServices() {
 
           <div  className='mb-8 col-span-1'>
             <h3 className='uppercase font-bold text-base mt-8 md:mt-0 mb-6 tracking-wider'>Programs</h3>
-            <ul className="flex flex-col gap-4 font-heading leading-tight list-square pl-4">
+            <ul className="flex flex-col gap-4 font-heading leading-tight list-square pl-6">
               <li>Leadership Program</li>
               <li>Skills Development Workshops</li>
               <li>Resume Writing Classes</li>
@@ -35,7 +35,7 @@ function SectionServices() {
           
           <div  className='mb-8 col-span-1'>
             <h3 className='uppercase font-bold text-base mt-8 md:mt-0 mb-6 tracking-wider'>Services</h3>
-            <ul className="flex flex-col gap-4 font-heading leading-tight list-square pl-4">
+            <ul className="flex flex-col gap-4 font-heading leading-tight list-square pl-6">
               <li>Resume Review</li>
               <li>Mock Interviews</li>
               <li>Job Boards</li>
