@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionJoin() {
   return (
-    <div id='join' className='flex flex-col justify-start md:justify-center items-center w-full px-6 z-50 bg-white'>
+    <div id='join' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-transparent'>
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
 
         <div className='flex flex-col items-start w-full pb-8 md:pb-16'>

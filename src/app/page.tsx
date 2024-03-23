@@ -7,10 +7,11 @@ import SectionTestimonial from "./parts/SectionTestimonial";
 import SectionJoin from "./parts/SectionJoin";
 import SectionContact from "./parts/SectionContact";
 import SectionNews from "./parts/SectionNews";
+import BackToTopButton from "./parts/BackToTopButton";
 
 export default function Home() {
   return (
-    <main className={`${fontbody.variable} ${fontheading.variable} font-body text-base md:text-lg xl:text-lg leading-relaxed flex flex-col items-center w-full text-slate-900`}>
+    <main className={`${fontbody.variable} ${fontheading.variable} font-body text-base md:text-lg xl:text-lg leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
 
       <Header />
       <SectionAbout />
@@ -19,6 +20,8 @@ export default function Home() {
       <SectionJoin />
       <SectionNews />
       <SectionContact />
+
+      <BackToTopButton />
 
       <Footer />
 

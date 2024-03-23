@@ -15,7 +15,7 @@ function SectionNews() {
           <h2 className='text-3xl md:text-4xl tracking-tight font-semibold'>What&apos;s the latest?</h2>
         </div>
 
-        <div>
+        <div className='relative z-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 mt-12'>
 
             <div className='grid grid-cols-1 bg-slate-100 rounded-lg gap-2 md:gap-4 overflow-hidden hover:-translate-y-2 transition duration-300 hover:shadow-glow'>
@@ -71,7 +71,7 @@ function SectionNews() {
         <SectionMediaMentions />
 
       </div>
-      <div className="bg-connections w-full h-full absolute z-0 bg-slate-200 -bottom-28 md:-bottom-40 left-0"></div>
+      <div className="bg-connections w-full h-full absolute -z-10 bg-slate-200 -bottom-28 md:-bottom-40 left-0"></div>
     </div>
   );
 }
