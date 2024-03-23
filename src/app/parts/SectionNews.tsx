@@ -7,8 +7,8 @@ import SectionMediaMentions from './SectionMediaMentions';
 
 function SectionNews() {
   return (
-    <div id='news' className='flex flex-col justify-start md:justify-center items-center w-full px-6'>
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg pb-20 md:pb-36'>
+    <div id='news' className='flex flex-col justify-start md:justify-center items-center w-full px-6 relative'>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg'>
 
         <div className='flex flex-col items-start w-full pb-4 md:pb-8'>
           <h3 className='text-md font-semibold uppercase text-indigo-900 tracking-wider'>News and Updates</h3>
@@ -18,7 +18,7 @@ function SectionNews() {
         <div>
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 mt-12'>
 
-            <div className='grid grid-cols-1 bg-slate-100 rounded-lg gap-2 md:gap-4 overflow-hidden'>
+            <div className='grid grid-cols-1 bg-slate-100 rounded-lg gap-2 md:gap-4 overflow-hidden hover:-translate-y-2 transition duration-300 hover:shadow-glow'>
               <div className='bg-slate-300 w-full aspect-video'>
                 <Image
                   src={ftccevent01}
@@ -34,7 +34,7 @@ function SectionNews() {
               </div>
             </div>
             
-            <div className='grid grid-cols-1 bg-slate-100 rounded-lg gap-2 md:gap-4 overflow-hidden'>
+            <div className='grid grid-cols-1 bg-slate-100 rounded-lg gap-2 md:gap-4 overflow-hidden hover:-translate-y-2 transition duration-300 hover:shadow-glow'>
               <div className='bg-slate-300 w-full aspect-video'>
                 <Image
                   src={guests}
@@ -50,7 +50,7 @@ function SectionNews() {
               </div>
             </div>
             
-            <div className='grid grid-cols-1 bg-slate-100 rounded-lg gap-2 md:gap-4 overflow-hidden'>
+            <div className='grid grid-cols-1 bg-slate-100 rounded-lg gap-2 md:gap-4 overflow-hidden hover:-translate-y-2 transition duration-300 hover:shadow-glow'>
               <div className='bg-slate-300 w-full aspect-video'>
                 <Image
                   src={michaelspeaking}
@@ -71,6 +71,7 @@ function SectionNews() {
         <SectionMediaMentions />
 
       </div>
+      <div className="bg-connections w-full h-full absolute z-0 bg-slate-200 -bottom-28 md:-bottom-40 left-0"></div>
     </div>
   );
 }

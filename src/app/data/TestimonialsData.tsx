@@ -1,8 +1,8 @@
 const testimonials: Testimonial[] = [
   {
     id: '1',
-    blurb: 'The community aims to connect people who are passionate about technology, from senior execs to early career professionals and university students who are in tech degrees.',
-    fullstatement: 'The community aims to connect people who are passionate about technology, from senior execs to early career professionals and university students who are in tech degrees.',
+    blurb: 'FTCC was founded to elevate Filipino ICT professionals in Australia as leaders, not just doers, by enabling through education, supporting through training and workshops, connecting them to the right people, and celebrating their contributions to Australian companies and industries through the spirit of Bayanihan.',
+    fullstatement: 'FTCC was founded to elevate Filipino ICT professionals in Australia as leaders, not just doers, by enabling through education, supporting through training and workshops, connecting them to the right people, and celebrating their contributions to Australian companies and industries through the spirit of Bayanihan.',
     name: 'Michael Dailisan Calizo',
     ftccdesignation: 'FTCC, Co-founder',
     link1: '',
@@ -15,7 +15,7 @@ const testimonials: Testimonial[] = [
     blurb: 'The community aims to connect people who are passionate about technology, from senior execs to early career professionals and university students who are in tech degrees.',
     fullstatement: 'The community aims to connect people who are passionate about technology, from senior execs to early career professionals and university students who are in tech degrees.',
     name: 'Arvi Vito',
-    ftccdesignation: 'FTCC, President',
+    ftccdesignation: 'FTCC, Co-founder',
     link1: '',
     link2: '',
     link3: 'string',

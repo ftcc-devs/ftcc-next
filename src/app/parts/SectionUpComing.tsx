@@ -24,18 +24,22 @@ function SectionUpComing() {
 
   const eventList = 
     events.map((e:FTCCEvent) => 
-      <div key={e.id} className={`grid grid-cols-4 gap-4 md:gap-4 p-6 md:p-8 text-slate-100 hover:text-slate-100 bg-gradient-to-tr from-indigo-700 from-60% via-indigo-600 via-80% to-indigo-500 mb-0 md:mb-8 rounded-xl border-indigo-200 transition duration-300`}>
+      <div key={e.id} className={`grid grid-cols-4 gap-4 md:gap-4 p-6 md:p-8 mb-0 md:mb-8 hover:-translate-y-2 rounded-xl border-indigo-200 transition duration-300 ${
+        e.highlight 
+        ? 'highlight text-slate-200 hover:text-slate-50 bg-gradient-to-tr from-indigo-800 from-60% via-indigo-600 via-80% to-indigo-500 hover:bg-gradient-to-br transition-all duration-300'
+        : 'text-slate-700 bg-orange-50 hover:bg-orange-200/40 transition duration-300'
+      }`}>
         <div className='col-span-1 md:col-span-4 flex flex-col items-center md:items-start mt-4'>
           <p className="font-heading text-5xl md:text-6xl mb-0 font-light px-4 sm:px-0 -ml-1">{showDate(e.date)}</p>
           <p className='uppercase text-base md:text-base font-heading font-semibold tracking-widest px-4 sm:px-0'>{showMonth(e.date)}</p>
         </div>
         <div className='col-span-3 md:col-span-4 flex flex-col justify-between'>
-          <h4 className='text-xl font-semibold mb-4 tracking-tight leading-tight border-t-0 md:border-t border-b border-dotted py-3'>{e.title}</h4>
+          <h4 className='text-xl font-semibold mb-4 tracking-tight leading-tight border-t-0 md:border-t border-b border-indigo-200/70 border-dotted py-3'>{e.title}</h4>
           <p className='mb-0 text-sm'>{showTime(e.date)}</p>
           <p className='mb-0 text-sm'>{e.venue}</p>
           <div className='flex flex-row gap-4 mt-6'>
-            <a href="#" className='w-fit text-xs font-heading uppercase font-bold hover:text-sky-300 text-indigo-300 transition duration-300'>Go to event page</a>
-            <a href="#" className='w-fit text-xs font-heading uppercase font-bold hover:text-sky-300 text-indigo-300 transition duration-300'>Add to calendar</a>
+            <a target='_blank' href={e.fblink} className='w-fit text-xs font-heading uppercase font-bold hover:text-indigo-900 text-indigo-400 transition duration-300'>Go to event page</a>
+            <a target='_blank' href={e.googlecalendarlink} className='w-fit text-xs font-heading uppercase font-bold hover:text-indigo-900 text-indigo-400 transition duration-300'>Add to calendar</a>
           </div>
         </div>
       </div>

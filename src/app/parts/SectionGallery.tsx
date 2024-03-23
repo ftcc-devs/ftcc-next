@@ -7,7 +7,7 @@ function SectionGallery() {
   
   const galleryItems =
     galleryphotos.map((photo: GalleryImage) => 
-      <a href={photo.link} key={photo.id} target='_blank' className='rounded-xl overflow-hidden hover:shadow-glow transition duration-300 relative aspect-video'>
+      <a href={photo.link} key={photo.id} target='_blank' className='rounded-xl overflow-hidden hover:shadow-glow hover:border-4 hover:border-indigo-600 transition duration-300 relative aspect-video'>
         <Image 
           src={photo.src}
           alt={photo.title}
