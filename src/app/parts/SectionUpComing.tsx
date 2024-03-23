@@ -1,58 +1,54 @@
 import React from 'react'
+import events from '../data/EventsData';
+
+function showDate(d:string) {
+  let parsed:Date = new Date(Date.parse(d));
+  return parsed.toLocaleDateString('en-US',{
+    day: '2-digit',
+  });
+}
+
+function showMonth(d:string) {
+  let parsed:Date = new Date(Date.parse(d));
+  return parsed.toLocaleDateString('en-US',{
+    month: 'long',
+  });
+}
+
+function showTime(d:string) {
+  let parsed:Date = new Date(Date.parse(d));
+  return parsed.toLocaleTimeString('en-US');
+}
 
 function SectionUpComing() {
+
+  const eventList = 
+    events.map((e:FTCCEvent) => 
+      <div key={e.id} className={`grid grid-cols-4 gap-4 md:gap-4 p-6 md:p-8 text-slate-100 hover:text-slate-100 bg-gradient-to-tr from-indigo-700 from-60% via-indigo-600 via-80% to-indigo-500 mb-0 md:mb-8 rounded-xl border-indigo-200 transition duration-300`}>
+        <div className='col-span-1 md:col-span-4 flex flex-col items-center md:items-start mt-4'>
+          <p className="font-heading text-5xl md:text-6xl mb-0 font-light px-4 sm:px-0 -ml-1">{showDate(e.date)}</p>
+          <p className='uppercase text-base md:text-base font-heading font-semibold tracking-widest px-4 sm:px-0'>{showMonth(e.date)}</p>
+        </div>
+        <div className='col-span-3 md:col-span-4 flex flex-col justify-between'>
+          <h4 className='text-xl font-semibold mb-4 tracking-tight leading-tight border-t-0 md:border-t border-b border-dotted py-3'>{e.title}</h4>
+          <p className='mb-0 text-sm'>{showTime(e.date)}</p>
+          <p className='mb-0 text-sm'>{e.venue}</p>
+          <div className='flex flex-row gap-4 mt-6'>
+            <a href="#" className='w-fit text-xs font-heading uppercase font-bold hover:text-sky-300 text-indigo-300 transition duration-300'>Go to event page</a>
+            <a href="#" className='w-fit text-xs font-heading uppercase font-bold hover:text-sky-300 text-indigo-300 transition duration-300'>Add to calendar</a>
+          </div>
+        </div>
+      </div>
+    ) 
+
   return (
     <div id='upcoming' className='mb-8 z-20'>
       <h3 className='uppercase font-bold text-base mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Upcoming Events</h3>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-2 w-full">
-        <div className="grid grid-cols-3 justify-start items-start gap-4 md:gap-12 p-10 md:p-12 text-indigo-100 hover:text-slate-100 bg-indigo-600 hover:bg-indigo-800 mb-0 md:mb-8 border-2 border-indigo-600 transition duration-300">
-          <div className='col-span-1 md:col-span-3 flex flex-col items-left md:items-left'>
-            <p className="font-heading text-5xl md:text-8xl mb-0 font-light px-4 sm:px-0 -ml-3">03</p>
-            <p className='uppercase text-sm md:text-base font-heading font-black tracking-widest px-4 sm:px-0'>May</p>
-          </div>
-          <div className='col-span-2 md:col-span-3 flex flex-col'>
-            <h4 className='font-bold mb-2 tracking-tight'>First General Assembly and Induction of Appointed Officers</h4>
-            <p className='mb-0'>2:00-4:00 pm</p>
-            <p className='mb-0'>AWS Canberra Offices, Braddon</p>
-            <div className='flex flex-col gap-2 mt-6'>
-              <a href="#" className='w-fit uppercase text-xs font-bold bg-transparent hover:bg-blue-600 hover:border-blue-600 border-2 border-slate-300 py-2 px-4 transition duration-300'>Visit FB event page</a>
-              <a className='w-fit uppercase text-xs font-bold bg-transparent hover:bg-red-800 hover:border-red-700 border-2 border-slate-300 py-2 px-4 transition duration-300'  target="_blank" href="https://calendar.google.com/calendar/u/1/r/eventedit?text=FTCC+Inaugural+General+Assembly&dates=20201231T160000/20201231T170000">Add to Goggle Calendar</a>
-            </div>
-          </div>
-        </div>
 
-        <div className="grid grid-cols-3  justify-start items-start gap-4 md:gap-12 p-10 md:p-12 text-slate-800 hover:text-slate-800 bg-slate-200/60 hover:bg-slate-300/60 border border-slate-300 mb-0 md:mb-8 transition duration-300">
-          <div className='col-span-1 md:col-span-3 flex flex-col items-left md:items-left'>
-            <p className="font-heading text-5xl md:text-8xl mb-0 font-light px-4 sm:px-0 -ml-3">08</p>
-            <p className='uppercase text-sm md:text-base font-heading font-black tracking-widest px-4 sm:px-0'>June</p>
-          </div>
-          <div className='col-span-2 md:col-span-3 flex flex-col'>
-            <h4 className='font-semibold mb-4'>First General Assembly and Induction of Appointed Officers</h4>
-            <p className='mb-0'>2:00-4:00 pm</p>
-            <p className='mb-0'>AWS Canberra Offices, Braddon</p>
-            <div className='flex flex-col gap-2 mt-6'>
-              <a href="#" className='w-fit uppercase text-xs font-bold hover:bg-blue-600 hover:text-slate-100 hover:border-blue-600 border-2 border-slate-600 py-2 px-4 transition duration-300'>Visit FB event page</a>
-              <a className='w-fit uppercase text-xs font-bold hover:bg-red-800 hover:text-slate-100 hover:border-red-800 border-2 border-slate-600 py-2 px-4 transition duration-300'  target="_blank" href="https://calendar.google.com/calendar/u/1/r/eventedit?text=FTCC+Inaugural+General+Assembly&dates=20201231T160000/20201231T170000">Add to Goggle Calendar</a>
-            </div>
-          </div>
-        </div>
-        
-        <div className="grid grid-cols-3  justify-start items-start gap-4 md:gap-12 p-10 md:p-12 text-slate-800 hover:text-slate-800 bg-slate-200/60 hover:bg-slate-300/60 border border-slate-300 mb-0 md:mb-8 transition duration-300">
-          <div className='col-span-1 md:col-span-3 flex flex-col items-left md:items-left'>
-            <p className="font-heading text-5xl md:text-8xl mb-0 font-light px-4 sm:px-0 -ml-2">27</p>
-            <p className='uppercase text-xs md:text-base font-heading font-black tracking-widest px-4 sm:px-0'>August</p>
-          </div>
-          <div className='col-span-2 md:col-span-3 flex flex-col'>
-            <h4 className='font-semibold mb-4'>First General Assembly and Induction of Appointed Officers</h4>
-            <p className='mb-0'>2:00-4:00 pm</p>
-            <p className='mb-0'>AWS Canberra Offices, Braddon</p>
-            <div className='flex flex-col gap-2 mt-6'>
-              <a href="#" className='w-fit uppercase text-xs font-bold hover:bg-blue-600 hover:text-slate-100 hover:border-blue-600 border-2 border-slate-600 py-2 px-4 transition duration-300'>Visit FB event page</a>
-              <a className='w-fit uppercase text-xs font-bold hover:bg-red-800 hover:text-slate-100 hover:border-red-800 border-2 border-slate-600 py-2 px-4 transition duration-300'  target="_blank" href="https://calendar.google.com/calendar/u/1/r/eventedit?text=FTCC+Inaugural+General+Assembly&dates=20201231T160000/20201231T170000">Add to Goggle Calendar</a>
-            </div>
-          </div>
-        </div>
+        {eventList}
+
       </div>
     </div>
   )

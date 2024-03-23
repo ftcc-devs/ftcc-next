@@ -6,8 +6,12 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'ftcc.org.au',
         port: '',
-        pathname: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'filotechcommunity.files.wordpress.com',
+        port: '',
+      }
     ],
   },
 };

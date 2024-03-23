@@ -25,11 +25,12 @@ function SectionNews() {
                   alt="FTCC event"
                   width={500}
                   height={500}
+                  className='hover:scale-[1.1] transition duration-300'
                 />
               </div>
               <div className='gridflex flex-col px-6 pt-2 pb-6'>
                 <p className="font-heading uppercase font-semibold text-xs my-2">March 25, 2024</p>
-                <a href="" target='_blank'><h4 className='font-body text-indigo-800 text-xl leading-tight pt-0 font-medium mb-3'>All set for FTCC&apos;s Inaugural Assembly on May 3</h4></a>
+                <a href="" target='_blank'><h4 className='font-body text-indigo-800 hover:text-indigo-600 text-xl leading-tight pt-0 font-medium mb-3 transition duration-300'>All set for FTCC&apos;s Inaugural Assembly on May 3</h4></a>
               </div>
             </div>
             
@@ -40,11 +41,12 @@ function SectionNews() {
                   alt="FTCC event"
                   width={500}
                   height={500}
+                  className='hover:scale-[1.1] transition duration-300'
                 />
               </div>
               <div className='gridflex flex-col px-6 pt-2 pb-6'>
                 <p className="font-heading uppercase font-semibold text-xs my-2">March 25, 2024</p>
-                <a href="" target='_blank'><h4 className='font-body text-indigo-800 text-xl leading-tight pt-0 font-medium mb-3'>All set for FTCC&apos;s Inaugural Assembly on May 3</h4></a>
+                <a href="" target='_blank'><h4 className='font-body text-indigo-800 hover:text-indigo-600 text-xl leading-tight pt-0 font-medium mb-3 transition duration-300'>All set for FTCC&apos;s Inaugural Assembly on May 3</h4></a>
               </div>
             </div>
             
@@ -55,11 +57,12 @@ function SectionNews() {
                   alt="FTCC event"
                   width={500}
                   height={500}
+                  className='hover:scale-[1.1] transition duration-300'
                 />
               </div>
               <div className='gridflex flex-col px-6 pt-2 pb-6'>
                 <p className="font-heading uppercase font-semibold text-xs my-2">March 25, 2024</p>
-                <a href="" target='_blank'><h4 className='font-body text-indigo-800 text-xl leading-tight pt-0 font-medium mb-3'>All set for FTCC&apos;s Inaugural Assembly on May 3</h4></a>
+                <a href="" target='_blank'><h4 className='font-body text-indigo-800 hover:text-indigo-600 text-xl leading-tight pt-0 font-medium mb-3 transition duration-300'>All set for FTCC&apos;s Inaugural Assembly on May 3</h4></a>
               </div>
             </div>
           </div>

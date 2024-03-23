@@ -9,7 +9,7 @@ function SectionContact() {
           <h3 className='text-md font-semibold uppercase text-indigo-900 tracking-wider'>Contact us</h3>
           <h2 className='text-3xl md:text-4xl tracking-tight font-semibold'>Talk to us</h2>
         </div>
-        <p>Community building isn&apos;t easy, especially when you are operating without funding and are relying on volunteer time. </p>
+        <p>We always try to reach out and talk to all members as much as we can. Hit us up so we can chat.</p>
 
         <div>
           <div id="pillars" className='grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-6 mt-6 md:mt-8'>

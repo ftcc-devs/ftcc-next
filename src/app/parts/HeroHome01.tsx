@@ -10,7 +10,7 @@ function HeroHome01() {
         <p className='text-left md:text-center font-light text-slate-800 w-full md:w-3/5 '>FTCC&apos;s mission is to connect, support, and upskill Filipino ICT professionals in Australia and to represent Filipino professionals as highly-skilled and globally competitive talents contributing to Australia&apos;s goal of becoming a top digital economy by 2030.</p>
         <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-4 my-8 md:my-12 w-full">
           <a href="#about" className='font-heading text-sm font-semibold uppercase w-full md:w-fit px-4 md:px-8 py-4 bg-indigo-700 hover:bg-indigo-900 border-2 border-indigo-700 hover:border-indigo-900 hover:shadow-glow text-indigo-100 hover:text-white rounded-lg tracking-wider transition duration-300'>Get to know us</a>
-          <a href="#join" className='font-heading text-sm font-semibold uppercase w-full md:w-fit px-4 md:px-8 py-4 bg-slate-200/50 hover:shadow-glow border-2 border-indigo-700 text-indigo-700 rounded-lg tracking-wider transition duration-300'>Become a member</a>
+          <a href="#join" className='font-heading text-sm font-semibold uppercase w-full md:w-fit px-4 md:px-8 py-4 bg-slate-200/50 hover:shadow-glow border-2 border-indigo-700 text-indigo-700 rounded-lg tracking-wider transition duration-300'>Join our community</a>
         </div>
         
         <MastheadNoteBottom />

@@ -9,7 +9,7 @@ function SectionServices() {
 
         <div className='flex flex-col items-start w-full pb-8 md:pb-8'>
           <h3 className='text-md font-semibold uppercase text-indigo-900 tracking-wider'>Services</h3>
-          <h2 className='text-3xl md:text-4xl tracking-tight font-semibold'>What do we do?</h2>
+          <h2 className='text-3xl md:text-4xl tracking-tight font-semibold'>What we do</h2>
         </div>
 
         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-8 text-md w-full max-w-screen-lg py-0 md:py-8'>
