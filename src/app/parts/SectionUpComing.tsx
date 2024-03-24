@@ -24,10 +24,10 @@ function SectionUpComing() {
 
   const eventList = 
     events.map((e:FTCCEvent) => 
-      <div key={e.id} className={`grid grid-cols-4 gap-4 md:gap-4 p-6 md:p-8 mb-0 md:mb-8 hover:-translate-y-2 rounded-xl border-indigo-200 transition duration-300 ${
+      <div key={e.id} className={`grid grid-cols-4 gap-4 md:gap-4 p-6 md:p-8 hover:-translate-y-2 rounded-xl hover:border-indigo-700 border-2 transition duration-300 ${
         e.highlight 
-        ? 'highlight text-slate-200 hover:text-slate-50 bg-gradient-to-tr from-indigo-800 from-60% via-indigo-600 via-80% to-indigo-500 hover:bg-gradient-to-br transition-all duration-300'
-        : 'text-slate-700 bg-orange-50 hover:bg-orange-200/40 transition duration-300'
+        ? 'highlight text-slate-200 hover:text-slate-50 bg-gradient-to-tr border-indigo-600 from-indigo-800 from-60% via-indigo-600 via-80% to-indigo-500 hover:bg-gradient-to-br transition-all duration-300'
+        : 'text-slate-700 border-indigo-200 transition duration-300'
       }`}>
         <div className='col-span-1 md:col-span-4 flex flex-col items-center md:items-start mt-4'>
           <p className="font-heading text-5xl md:text-6xl mb-0 font-light px-4 sm:px-0 -ml-1">{showDate(e.date)}</p>
@@ -47,9 +47,9 @@ function SectionUpComing() {
 
   return (
     <div id='upcoming' className='mb-8 z-20'>
-      <h3 className='uppercase font-bold text-base mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Upcoming Events</h3>
+      <h3 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Upcoming Events</h3>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-2 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-3  mb-8 md:mb-16 w-full">
 
         {eventList}
 

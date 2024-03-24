@@ -1,14 +1,16 @@
 import React from 'react'
+import HeadingSection from './HeadingSection';
 
 function SectionContact() {
   return (
     <div id='contact' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-indigo-50'>
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
 
-        <div className='flex flex-col items-start w-full pb-8 md:pb-16'>
-          <h3 className='text-md font-semibold uppercase text-indigo-900 tracking-wider'>Contact us</h3>
-          <h2 className='text-3xl md:text-4xl tracking-tight font-semibold'>Talk to us</h2>
-        </div>
+        <HeadingSection 
+          subtitle='Contact us'
+          title='Let&apos;s have a chat'
+        />
+
         <p>We always try to reach out and talk to all members as much as we can. Hit us up so we can chat.</p>
 
         <div>

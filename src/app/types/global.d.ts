@@ -6,10 +6,10 @@ declare global {
   interface GalleryImage {
     id: string;
     src: string;
-    link: string;
+    link?: string;
     title: string;
-    album: string;
-    date: string;
+    album?: string;
+    date?: string;
   }
   
   type GalleryImages = GalleryImage[]
@@ -64,6 +64,11 @@ declare global {
     link2?: string;
     link3?: string;
     avatar: string;
+  }
+
+  interface Heading {
+    subtitle?: string;
+    title: string;
   }
 
   interface AccordionItem {

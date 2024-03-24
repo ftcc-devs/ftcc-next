@@ -4,16 +4,17 @@ import ftccevent01 from '../../../public/assets/images/gallery/ftcc-event-01.web
 import guests from '../../../public/assets/images/gallery/guests-01.webp';
 import michaelspeaking from '../../../public/assets/images/gallery/michael-speaking-01.webp';
 import SectionMediaMentions from './SectionMediaMentions';
+import HeadingSection from './HeadingSection';
 
 function SectionNews() {
   return (
     <div id='news' className='flex flex-col justify-start md:justify-center items-center w-full px-6 relative'>
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg'>
 
-        <div className='flex flex-col items-start w-full pb-4 md:pb-8'>
-          <h3 className='text-md font-semibold uppercase text-indigo-900 tracking-wider'>News and Updates</h3>
-          <h2 className='text-3xl md:text-4xl tracking-tight font-semibold'>What&apos;s the latest?</h2>
-        </div>
+        <HeadingSection 
+          subtitle='News and Updates'
+          title='What&apos;s the latest?'
+        />
 
         <div className='relative z-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 mt-12'>

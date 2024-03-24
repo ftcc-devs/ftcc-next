@@ -1,15 +1,17 @@
 import React from 'react'
 import AccordionItem from './AccordionItem';
+import HeadingSection from './HeadingSection';
 
 function SectionJoin() {
   return (
     <div id='join' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-transparent'>
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
 
-        <div className='flex flex-col items-start w-full pb-8 md:pb-16'>
-          <h3 className='text-md font-semibold uppercase text-indigo-900 tracking-wider'>Membership</h3>
-          <h2 className='text-3xl md:text-4xl tracking-tight font-semibold'>Join our community</h2>
-        </div>
+        <HeadingSection 
+          subtitle='Membership'
+          title='Join our community'
+        />
+
         <p className=''>Community building isn&apos;t easy, especially when you are operating without funding.</p>
         
         <div className='flex flex-col my-3 md:my-8 border-2 rounded-xl overflow-hidden *:border-b-2'>
