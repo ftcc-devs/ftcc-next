@@ -3,7 +3,8 @@ import "./globals.css";
 import { openGraphImage } from "./shared-metadata";
 
 export const metadata: Metadata = {
-  title: "FTCC",
+  metadataBase: new URL('https://ftcc.org.au'),
+  title: "FTCC - Filipino Tech Community Canberra",
   description: "Filipino Tech Community Canberra",
   ...openGraphImage,
   icons: {

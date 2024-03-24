@@ -11,6 +11,7 @@ declare global {
     album: string;
     date: string;
   }
+  
   type GalleryImages = GalleryImage[]
 
   interface FTCCEvent {
@@ -59,10 +60,15 @@ declare global {
     fullstatement: string;
     name: string;
     ftccdesignation: string;
-    link1: string;
-    link2: string;
-    link3: string;
+    link1?: string;
+    link2?: string;
+    link3?: string;
     avatar: string;
+  }
+
+  interface AccordionItem {
+    title: string;
+    content: string;
   }
 
 }

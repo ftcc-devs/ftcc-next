@@ -11,7 +11,7 @@ import BackToTopButton from "./parts/BackToTopButton";
 
 export default function Home() {
   return (
-    <main className={`${fontbody.variable} ${fontheading.variable} font-body text-base md:text-lg xl:text-lg leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
+    <main id="top" className={`${fontbody.variable} ${fontheading.variable} font-body text-base md:text-lg xl:text-lg leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
 
       <Header />
       <SectionAbout />

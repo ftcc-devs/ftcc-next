@@ -36,6 +36,7 @@ const config: Config = {
       },
       boxShadow: {
         glow: '0 0 20px hsl(240,60%,70%)',
+        fadebottom: '0 50px 50px hsla(0,0%,100%,100%)',
       },
       fontFamily: {
         heading: ['var(--font-heading)'],
