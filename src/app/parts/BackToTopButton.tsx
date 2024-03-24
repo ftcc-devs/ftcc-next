@@ -11,7 +11,6 @@ function BackToTopButton() {
   const currentScroll = () => {
     let topAreaMax = 600;
     const scrollHeight = window.scrollY;
-    console.log(isTopArea);
   
     if (scrollHeight < topAreaMax) {
       setIsTopArea(true);

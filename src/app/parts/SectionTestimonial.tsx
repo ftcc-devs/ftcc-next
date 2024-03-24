@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import michaelprofile from '../../../public/assets/images/michael-profile-01.webp'
 import testimonials from '../data/TestimonialsData';
 import HeadingSectionReverse from './HeadingSectionReverse';
 
@@ -13,7 +12,7 @@ function SectionTestimonial() {
         <div className='flex flex-row justify-start items-center gap-3 sm:gap-6 relative z-10'>
             <div className='w-16 h-16 rounded-full overflow-hidden'>
             <Image
-              src={michaelprofile}
+              src={t.avatar}
               alt={t.name}
               width={500}
               height={500}
@@ -21,7 +20,7 @@ function SectionTestimonial() {
           </div>
           <div className='flex flex-col justify-start items-start'>
             <p className='font-heading font-bold tracking-wider text-slate-200 text-base mb-0'>{t.name}</p>
-            <p className='font-heading uppercase tracking-wider text-slate-200 text-sm mb-0'>{t.ftccdesignation}</p>
+            <p className='font-heading uppercase tracking-wider text-slate-400 text-sm mb-0'>{t.ftccdesignation}</p>
           </div>
         </div>
         

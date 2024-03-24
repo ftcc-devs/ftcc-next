@@ -8,7 +8,7 @@ function Footer() {
 
         <div id="footer-quote" className='text-left sm:text-center w-full md:w-3/5 mb-16 md:mb-32'>
           <p className='text-lg lg:text-2xl tracking-tight'>“I am pleased that the growing tech community in Canberra decided to come together and strengthen our credentials as highly competent tech workers and movers.”</p>
-          <p className='uppercase text-sky-200 mt-8 text-sm tracking-wide'>Ambassador Ma. Hellen B. De La Vega</p>
+          <p className='uppercase text-slate-400 mt-8 text-sm tracking-wide'>Ambassador Ma. Hellen B. De La Vega</p>
         </div>
 
         <div id="footer-menu-row" className='grid grid-cols-2 md:grid-cols-6 gap-4 lg:gap-8 text-md'>

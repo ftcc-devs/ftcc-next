@@ -1,3 +1,6 @@
+import michaelprofile from '/public/assets/images/michael-profile-01.webp'
+import arviprofile from '/public/assets/images/arvi-profile-01.webp'
+
 const testimonials: Testimonial[] = [
   {
     id: '1',
@@ -8,7 +11,7 @@ const testimonials: Testimonial[] = [
     link1: '',
     link2: '',
     link3: 'string',
-    avatar: 'michaelprofile',
+    avatar: michaelprofile,
   },
   {
     id: '2',
@@ -19,7 +22,7 @@ const testimonials: Testimonial[] = [
     link1: '',
     link2: '',
     link3: 'string',
-    avatar: '',
+    avatar: arviprofile,
   },
 ]
 

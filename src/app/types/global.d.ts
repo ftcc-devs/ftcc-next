@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import { ObjectHTMLAttributes } from "react";
 
 export {};
@@ -63,7 +64,7 @@ declare global {
     link1?: string;
     link2?: string;
     link3?: string;
-    avatar: string;
+    avatar: string | StaticImageData;
   }
 
   interface Heading {
