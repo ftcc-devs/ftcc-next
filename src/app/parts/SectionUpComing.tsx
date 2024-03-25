@@ -38,15 +38,15 @@ function SectionUpComing() {
           <p className='mb-0 text-sm'>{showTime(e.date)}</p>
           <p className='mb-0 text-sm'>{e.venue}</p>
           <div className='flex flex-row gap-4 mt-6'>
-            <a target='_blank' href={e.fblink} className='w-fit text-xs font-heading uppercase font-bold hover:text-indigo-900 text-indigo-400 transition duration-300'>Go to event page</a>
-            <a target='_blank' href={e.googlecalendarlink} className='w-fit text-xs font-heading uppercase font-bold hover:text-indigo-900 text-indigo-400 transition duration-300'>Add to calendar</a>
+            <a target='_blank' href={e.fblink} className={`w-fit text-xs font-heading uppercase font-bold transition duration-300 ${e.highlight ? "hover:text-indigo-100 text-indigo-300 " : "hover:text-indigo-900 text-indigo-600"}`}>Go to event page</a>
+            <a target='_blank' href={e.googlecalendarlink} className={`w-fit text-xs font-heading uppercase font-bold transition duration-300 ${e.highlight ? "hover:text-indigo-100 text-indigo-300 " : "hover:text-indigo-900 text-indigo-600"}`}>Add to calendar</a>
           </div>
         </div>
       </div>
     ) 
 
   return (
-    <div id='upcoming' className='mb-8 z-20'>
+    <div id='upcoming' className='mb-8 z-10'>
       <h3 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Upcoming Events</h3>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-3  mb-8 md:mb-16 w-full">

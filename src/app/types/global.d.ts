@@ -4,16 +4,6 @@ import { ObjectHTMLAttributes } from "react";
 export {};
 
 declare global {
-  interface GalleryImage {
-    id: string;
-    src: string;
-    link?: string;
-    title: string;
-    album?: string;
-    date?: string;
-  }
-  
-  type GalleryImages = GalleryImage[]
 
   interface FTCCEvent {
     id: string;
