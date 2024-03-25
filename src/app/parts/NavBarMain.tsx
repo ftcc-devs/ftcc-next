@@ -42,11 +42,11 @@ function NavBarMain() {
                             ${menuToggle  ? 'hidden text-slate-700 gap-4 lg:gap-8' : 'flex flex-col justify-start items-start text-indigo-200 gap-4'}
                             *:transition-all *:duration-300 *:py-2 *:px-2
                           `}>
-            <li><Link href="#about" className='hover:text-indigo-700'>About</Link></li>
-            <li><Link href="#services" className='hover:text-indigo-700'>Services</Link></li>
-            <li><Link href="#join" className='hover:text-indigo-700'>Membership</Link></li>
-            <li><Link href="#news" className='hover:text-indigo-700'>News</Link></li>
-            <li><Link href="#contact" className='hover:text-indigo-700'>Contact</Link></li>
+            <li><Link href="/#about" className='hover:text-indigo-700'>About</Link></li>
+            <li><Link href="/#services" className='hover:text-indigo-700'>Services</Link></li>
+            <li><Link href="/#join" className='hover:text-indigo-700'>Membership</Link></li>
+            <li><Link href="/#news" className='hover:text-indigo-700'>News</Link></li>
+            <li><Link href="/#contact" className='hover:text-indigo-700'>Contact</Link></li>
           </ul>
           <div id="nav-utils" className={`flex-col lg:flex-row justify-between items-center ${menuToggle ? 'flex' : 'hidden'}`}>
               <Link href="https://github.com/ftcc-devs/ftcc-next" target='_blank'>
