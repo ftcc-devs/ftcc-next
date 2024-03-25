@@ -1,4 +1,4 @@
-const galleryphotos : GalleryImages = [
+const galleryphotos = [
   {
     id: '1',
     src: 'https://ftcc.org.au/ftcc-event-01.11e2ae9f.webp',

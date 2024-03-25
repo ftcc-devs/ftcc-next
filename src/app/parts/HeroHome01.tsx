@@ -3,7 +3,7 @@ import MastheadNoteBottom from './MastheadNoteBottom';
 
 function HeroHome01() {
   return (
-    <div className='flex flex-col justify-start md:justify-center items-center w-full bg-transparent z-20'>
+    <div className='flex flex-col justify-start md:justify-center items-center w-full bg-transparent z-20 px-6 lg:px-12 pt-8 pb-8 lg:pt-18 lg:pb-18'>
       <div className='flex flex-col justify-start items:start md:items-center py-4 md:py-8 w-full max-w-screen-xl'>
 
         <h1 className='font-heading text-4xl md:text-5xl xl:text-7xl text-left md:text-center tracking-tight font-bold w-4/5 md:w-3/5 xl:w-10/12 mt-6 md:mt-10 mb-4 md:mb-8'>Empowering Filipino IT professionals in Canberra</h1>

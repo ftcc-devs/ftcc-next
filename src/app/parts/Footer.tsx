@@ -1,5 +1,8 @@
 import React from 'react'
 import { FtccLogoReverse } from '../components/SvgElements';
+import logofooter from '../../../public/assets/ui/ftcc-landscape-logo-reverse.png';
+import Link from 'next/link';
+import Image from 'next/image';
 
 function Footer() {
   return (
@@ -14,7 +17,20 @@ function Footer() {
         <div id="footer-menu-row" className='grid grid-cols-2 md:grid-cols-6 gap-4 lg:gap-8 text-md'>
 
           <div id="footer-logo" className="col-span-2 md:col-span-3 flex flex-col gap-4">
-            <FtccLogoReverse />
+            <div className='w-[185px]'>
+              <Link href='/'>
+                <Image
+                  src={logofooter}
+                  alt='FTCC logo reverse'
+                  sizes='
+                    (min-width: 60rem) 600px,
+                    (min-width: 28rem) 300px,
+                    300px
+                  '
+                  objectFit='fill'
+                />
+              </Link>
+            </div>
             <div className='pl-0 md:pl-20 mt-8'>
               <p className='text-indigo-300'>Filipino Tech Community Canberra Incorporation is a duly-registered community association as conferred by the Australian Capital Territory government.</p>
             </div>

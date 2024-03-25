@@ -5,7 +5,7 @@ import { BgBottomFadeToWhite, BgFull } from '../components/BgGradients';
 
 function Header() {
   return (
-    <div className='flex flex-col w-full items-center px-6 lg:px-12 py-8 lg:py-18 relative overflow-hidden'>
+    <div className='flex flex-col w-full items-center relative overflow-hidden'>
 
       <NavBarMain />
       <HeroHome01 />
