@@ -18,7 +18,7 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
     <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
       <PageHeader />
 
-      <div id='join' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-transparent'>
+      <div className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-transparent'>
         <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
 
           <div className='grid grid-cols-3 gap-8'>
