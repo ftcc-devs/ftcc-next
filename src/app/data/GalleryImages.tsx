@@ -1,7 +1,7 @@
 const galleryphotos = [
   {
     id: '1',
-    src: 'https://ftcc.org.au/ftcc-event-01.11e2ae9f.webp',
+    src: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
     link: 'https://facebook.com/filotechcanberra',
     title: 'Event at FTCC',
     album: 'Event at FTCC',
@@ -9,7 +9,7 @@ const galleryphotos = [
   },
   {
     id: '2',
-    src: 'https://ftcc.org.au/guests-01.4ec85ab8.webp',
+    src: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-2.jpg',
     link: 'https://facebook.com/filotechcanberra',
     title: 'Guests at FTCC',
     album: 'Guests at FTCC',
@@ -17,7 +17,7 @@ const galleryphotos = [
   },
   {
     id: '3',
-    src: 'https://ftcc.org.au/michael-speaking-01.7da0b1ab.webp',
+    src: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-21.jpg',
     link: 'https://facebook.com/filotechcanberra',
     title: 'Michael',
     album: 'Micahael speaks at event',
@@ -25,7 +25,7 @@ const galleryphotos = [
   },
   {
     id: '4',
-    src: 'https://filotechcommunity.files.wordpress.com/2023/03/img_7779.jpg',
+    src: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-3.jpg',
     link: 'https://facebook.com/filotechcanberra',
     title: 'Arvi and Daniel',
     album: 'Arvi and Daniel',
@@ -33,7 +33,7 @@ const galleryphotos = [
   },
   {
     id: '5',
-    src: 'https://filotechcommunity.files.wordpress.com/2023/06/img_8858.jpg',
+    src: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-6.jpg',
     link: 'https://facebook.com/filotechcanberra',
     title: 'FTCC leaders at Canberra Pinoy Fair 2023',
     album: 'Canberra Pinoy Fair 2023',
@@ -41,7 +41,7 @@ const galleryphotos = [
   },
   {
     id: '6',
-    src: 'https://filotechcommunity.files.wordpress.com/2023/03/img_7790.jpg',
+    src: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-9.jpg',
     link: 'https://facebook.com/filotechcanberra',
     title: 'FTCC leaders at Canberra Pinoy Fair 2023',
     album: 'Canberra Pinoy Fair 2023',
@@ -63,6 +63,22 @@ const galleryphotos = [
     album: 'Canberra Pinoy Fair 2023',
     date: '2024-05-03T17:00:00.000+10:00',
   },
-]
+  {
+    id: '9',
+    src: 'https://live.staticflickr.com/4088/5395122546_547ebf8af2_h.jpg',
+    link: 'https://facebook.com/filotechcanberra',
+    title: 'FTCC leaders at Canberra Pinoy Fair 2023',
+    album: 'Canberra Pinoy Fair 2023',
+    date: '2024-05-03T17:00:00.000+10:00',
+  },
+  {
+    id: '10',
+    src: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-2.jpg',
+    link: 'https://facebook.com/filotechcanberra',
+    title: 'FTCC Lunch and Learn',
+    album: 'FTCC Lunch and Learn',
+    date: '2024-05-03T17:00:00.000+10:00',
+  },
+] 
 
 export default galleryphotos;

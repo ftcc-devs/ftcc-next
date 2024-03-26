@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import galleryphotos from '../data/GalleryImages';
+import galleryphotos from '@/app/data/GalleryImages';
 
 function SectionGallery() {
 
@@ -12,7 +12,7 @@ function SectionGallery() {
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
         
         {galleryphotos.map((photo) => (
-          <Link href={`../photo/${photo.id}`} key={photo.id} className='rounded-xl overflow-hidden hover:shadow-glow hover:border-4 hover:border-indigo-600 transition duration-300 relative aspect-video'>
+          <Link href={`../photos/${photo.id}`} key={photo.id} className='rounded-xl overflow-hidden hover:shadow-glow hover:border-4 hover:border-indigo-600 transition duration-300 relative aspect-video'>
             <Image
               src={photo.src}
               alt={photo.title}

@@ -2,8 +2,6 @@ import PageFooter from '@/app/parts/PageFooter';
 import PageHeader from '@/app/parts/PageHeader';
 import React, { FC } from 'react';
 import galleryphotos from '@/app/data/GalleryImages';
-import ImageDetails from '@/app/components/ImageDetails';
-import { GalleryImage } from '@/app/types/imagegallery';
 import Image from 'next/image';
 
 interface ImageDetailPageProps {
@@ -14,14 +12,14 @@ interface ImageDetailPageProps {
 
 const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
 
-  const photo = galleryphotos[Number(params.id)-1]
+  const photo:any = galleryphotos.find(p => p.id === params.id );
 
   return (
-    <div>
+    <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
       <PageHeader />
 
       <div id='join' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-transparent'>
-        <div className='flex flex-col justify-start items:start w-full max-w-screen-xl py-20 md:py-36'>
+        <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
 
           <div className='grid grid-cols-3 gap-8'>
             <div className='col-span-3 md:col-span-2 border-4 border-slate-900'>
@@ -36,7 +34,7 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
                 }}
               />
             </div>
-            <div className='col-span-3 md:col-span-1 *:border-b-2 *:pb-6'>
+            <div className='col-span-3 md:col-span-1 *:border-b-2 *:md:pb-6 *:pb-3'>
               <p>Title: {photo.title}</p>
               <p>Event: {photo.date}</p>
               <p>Album: {photo.album}</p>
@@ -48,7 +46,7 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
 
 
       <PageFooter />
-    </div>
+    </main>
   )
 }
 

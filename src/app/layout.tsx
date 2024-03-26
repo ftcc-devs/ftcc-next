@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { openGraphImage } from "./shared-metadata";
+import { fontheading, fontbody } from "./fonts";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ftcc.org.au'),
@@ -20,7 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={"scroll-smooth"}>
-      <body className="">{children}</body>
+      <body id="top" className={`${fontbody.variable} ${fontheading.variable}`}>
+        
+        {children}
+
+      </body>
     </html>
   );
 }

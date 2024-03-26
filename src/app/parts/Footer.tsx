@@ -27,7 +27,6 @@ function Footer() {
                     (min-width: 28rem) 300px,
                     300px
                   '
-                  objectFit='fill'
                 />
               </Link>
             </div>
