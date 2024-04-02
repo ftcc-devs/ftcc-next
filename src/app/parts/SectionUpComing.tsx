@@ -11,7 +11,14 @@ function showDate(d:string) {
 function showMonth(d:string) {
   let parsed:Date = new Date(Date.parse(d));
   return parsed.toLocaleDateString('en-US',{
-    month: 'long',
+    month: 'short',
+  });
+}
+
+function showDay(d:string) {
+  let parsed:Date = new Date(Date.parse(d));
+  return parsed.toLocaleDateString('en-US',{
+    weekday: 'long',
   });
 }
 
@@ -35,7 +42,7 @@ function SectionUpComing() {
         </div>
         <div className='col-span-3 md:col-span-4 flex flex-col justify-between'>
           <h4 className='text-xl font-semibold mb-4 tracking-tight leading-tight border-t-0 md:border-t border-b border-indigo-200/70 border-dotted py-3'>{e.title}</h4>
-          <p className='mb-0 text-sm'>{showTime(e.date)}</p>
+          <p className='mb-0 text-sm'>{showDay(e.date)}, {showTime(e.date)}</p>
           <p className='mb-0 text-sm'>{e.venue}</p>
           <div className='flex flex-row gap-4 mt-6'>
             <a target='_blank' href={e.fblink} className={`w-fit text-xs font-heading uppercase font-bold transition duration-300 ${e.highlight ? "hover:text-indigo-100 text-indigo-300 " : "hover:text-indigo-900 text-indigo-600"}`}>Go to event page</a>
