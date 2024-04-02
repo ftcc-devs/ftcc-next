@@ -41,7 +41,7 @@ p {
   filter: saturate(.8);
 }
 
-#mediamentions h4::before {
+#mediamentions h5::before {
   content: "";
   width: 16px;
   height: 16px;
@@ -56,6 +56,6 @@ p {
   transition: 300ms;
 }
 
-#mediamentions h4::before:hover {
+#mediamentions h5::before:hover {
   transform: scale(1.1);
 }

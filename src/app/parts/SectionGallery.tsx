@@ -7,7 +7,7 @@ function SectionGallery() {
 
   return (
     <div id='upcoming' className='col-span-2 mb-24 z-10'>
-      <h3 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Photo Gallery</h3>
+      <h3 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>FTCC Members in-action</h3>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
         

@@ -12,9 +12,9 @@ function Footer() {
           <p className='uppercase text-slate-400 mt-8 text-sm tracking-wide'>Ambassador Ma. Hellen B. De La Vega</p>
         </div>
 
-        <div id="footer-menu-row" className='grid grid-cols-2 md:grid-cols-6 gap-4 lg:gap-8 text-md'>
+        <div id="footer-menu-row" className='grid grid-cols-3 md:grid-cols-6 gap-4 lg:gap-8 text-md'>
 
-          <div id="footer-logo" className="col-span-2 md:col-span-3  flex flex-col gap-4">
+          <div id="footer-logo" className="col-span-3 md:col-span-3  flex flex-col gap-4">
             <div className='w-[185px]'>
               <Link href='/'>
                 <Image
@@ -33,29 +33,30 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading text-right">
+          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
             <a href="#" className='hover:text-indigo-100'>Privacy Policy</a>
             <a href="#" className='hover:text-indigo-100'>Cookie Policy</a>
             <a href="#" className='hover:text-indigo-100'>Terms and Conditions</a>
             <a href="#" className='hover:text-indigo-100'>Disclaimer</a>
           </div>
           
-          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading text-right">
+          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
+            <a href="#" className='hover:text-indigo-100'>About</a>
             <a href="#" className='hover:text-indigo-100'>Events</a>
             <a href="#" className='hover:text-indigo-100'>Photo Gallery</a>
             <a href="#" className='hover:text-indigo-100'>Members</a>
             <a href="#" className='hover:text-indigo-100'>Blog</a>
             <a href="#" className='hover:text-indigo-100'>Join</a>
+            <a href="#" className='hover:text-indigo-100'>FAQ</a>
           </div>
 
-          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading text-right">
-            <a href="#" className='hover:text-indigo-100'>Home</a>
-            <a href="#" className='hover:text-indigo-100'>About</a>
-            <a href="#" className='hover:text-indigo-100'>Services</a>
-            <a href="#" className='hover:text-indigo-100'>Projects</a>
-            <a href="#" className='hover:text-indigo-100'>Membership</a>
-            <a href="#" className='hover:text-indigo-100'>News</a>
-            <a href="#" className='hover:text-indigo-100'>Contact</a>
+          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
+            <a href="/" className='hover:text-indigo-100'>Home</a>
+            <a href="/#about" className='hover:text-indigo-100'>About</a>
+            <a href="/#services" className='hover:text-indigo-100'>Services</a>
+            <a href="/#join" className='hover:text-indigo-100'>Membership</a>
+            <a href="/#news" className='hover:text-indigo-100'>News</a>
+            <a href="/#contact" className='hover:text-indigo-100'>Contact</a>
           </div>
 
         </div>

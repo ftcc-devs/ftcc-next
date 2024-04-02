@@ -2,6 +2,25 @@ import React from 'react'
 import SectionUpComing from './SectionUpComing';
 import SectionGallery from './SectionGallery';
 import HeadingSection from './HeadingSection';
+import checkedbox from '../../../public/assets/ui/checkbox-checked-regular-36.png';
+import checkbox from '../../../public/assets/ui/checkbox-regular-36.png';
+import Image from 'next/image';
+
+const bullet = <Image
+  src={checkbox}
+  alt='checkbox'
+  width='24'
+  height='24'
+  className='h-fit'
+/>;
+
+const bulletchecked = <Image
+  src={checkedbox}
+  alt='checkbox'
+  width='24'
+  height='24'
+  className='h-fit'
+/>;
 
 function SectionServices() {
   return (
@@ -13,35 +32,36 @@ function SectionServices() {
           title='What we do'
         />
 
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-8 text-md w-full max-w-screen-lg py-0 md:py-8'>
+        <div className='grid grid-cols-2 md:grid-cols-7 gap-4 lg:gap-8 text-md w-full max-w-screen-lg py-0 md:py-8'>
 
-          <div className="col-span-2 md:col-span-2 flex flex-col gap-4">
+          <div className="col-span-2 md:col-span-3 flex flex-col gap-4">
             <div className=''>
-            <h3 className='uppercase font-bold mt-8 md:mt-0 mb-4 md:mb-8 tracking-wider pb-4'>Serving the tech community</h3>
-              <p className='mb-6 pr-0 md:pr-12'>Community building isn&apos;t easy, especially when you are operating without funding and are relying on volunteer time. But hearing the feedback like the above makes us think our efforts are worth it, knowing that we can have a positive impact on others and even inspire them to think of ways on how to help others as well. Regardless of your age, status, gender, or background, you can find a way to pay it forward and help people in our community.</p>
+            <h4 className='uppercase font-bold mt-8 md:mt-0 mb-4 md:mb-8 tracking-wider pb-4'>Service Orientation</h4>
+              <p className='mb-6 pr-0 md:pr-12'>We are 100% in the service of each and every Filipino ICT professional, ICT student and tech enthusiast in Canberra.</p>
+              <p className='mb-6 pr-0 md:pr-12'>We provide programs and services that bring members to an inspiring and nurturing space where each one can grow as individuals and at the same time be productive collaborators working as teams.</p>
             </div>
           </div>
 
-          <div  className='mb-8 col-span-2 md:col-span-1'>
-            <h3 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Programs</h3>
-            <ul className="flex flex-col gap-5 font-heading leading-tight *:border-b *:border-slate-300 *:pb-5 *:font-medium">
-              <li>Leadership Program</li>
-              <li>Skills Development Workshops</li>
-              <li>Resume Writing Classes</li>
-              <li>Fireside Chats</li>
-              <li>FTCC Volunteer Devs Program</li>
-              <li>Annual FTCC Hackathon</li>
-              <li>Monthly Socials</li>
+          <div  className='mb-8 col-span-2 md:col-span-2'>
+            <h4 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Programs</h4>
+            <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-300 *:pb-5 *:font-medium">
+              <li>{bulletchecked}Leadership Program</li>
+              <li>{bullet}Skills Development Workshops</li>
+              <li>{bullet}Resume Writing Classes</li>
+              <li>{bulletchecked}Fireside Chats</li>
+              <li>{bulletchecked}FTCC Volunteer Devs Program</li>
+              <li>{bullet}Annual FTCC Hackathon</li>
+              <li>{bulletchecked}Monthly Socials</li>
             </ul>
           </div>
           
-          <div  className='mb-8 col-span-2 md:col-span-1'>
-            <h3 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Services</h3>
-            <ul className="flex flex-col gap-5 font-heading leading-tight *:border-b *:border-slate-300 *:pb-5 *:font-medium">
-              <li>Resume Review</li>
-              <li>Mock Interviews</li>
-              <li>Job Boards</li>
-              <li>Internship Reference</li>
+          <div  className='mb-8 col-span-2 md:col-span-2'>
+            <h4 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Services</h4>
+            <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-300 *:pb-5 *:font-medium">
+              <li>{bulletchecked}Resume Review</li>
+              <li>{bullet}Mock Interviews</li>
+              <li>{bullet}Job Boards</li>
+              <li>{bullet}Internship Reference</li>
             </ul>
           </div>
 
