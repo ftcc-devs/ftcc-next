@@ -17,6 +17,12 @@ function SectionMediaMentions() {
         <div className="col-span-9 md:col-span-7 flex flex-col justify-start items-start gap-6 border-l-2 border-indigo-600/40 pb-20 md:pb-48">
 
           <div className="flex flex-col gap-4 pl-2 ml-8 pt-0 pr-4 pb-8 relative">
+            <p className='mb-0'>November 2023</p>
+            <a target="_blank" href="https://pageone.ph/filipino-ict-professional-delegates-win-australian-taxation-office-challenge/"><h5 className='hover:text-indigo-700 text-xl md:text-2xl font-semibold leading-tight md:leading-7'>Filipino ICT Professional Delegates Win Australian Taxation Office Challenge</h5></a>
+            <p className='uppercase text-indigo-900 hover:underline text-sm font-bold tracking-wider m-0'><a target="_blank" href="https://pageone.ph">Source: PageOne</a></p>
+          </div>
+          
+          <div className="flex flex-col gap-4 pl-2 ml-8 pt-0 pr-4 pb-8 relative">
             <p className='mb-0'>June 2023</p>
             <a target="_blank" href="https://www.sbs.com.au/language/filipino/en/article/filipino-tech-community-canberra-supporting-filipino-ict-professionals-in-the-act/ldga1mgpm"><h5 className='hover:text-indigo-700 text-xl md:text-2xl font-semibold leading-tight md:leading-7'>Connect to remain competitive: Filipino Tech Community Canberra supports ICT professionals in the ACT</h5></a>
             <p className='uppercase text-indigo-900 hover:underline text-sm font-bold tracking-wider m-0'><a target="_blank" href="https://www.sbs.com.au/language/filipino/en">Source: SBS Filipino</a></p>
@@ -35,7 +41,7 @@ function SectionMediaMentions() {
           </div>
 
           <div className="flex flex-col gap-4 pl-2 ml-8 pt-0 pr-4 pb-8 relative">
-            <p className='mb-0'>June 2023</p>
+            <p className='mb-0'>September 2022</p>
             <a target="_blank" href="https://philembassy.org.au/latest/news/ph-ambassador-meets-filipino-tech-community-canberra"><h5 className='hover:text-indigo-700 text-xl md:text-2xl font-semibold leading-7'>PH Ambassador meets Filipino Tech Community Canberra</h5></a>
             <p className='uppercase text-indigo-900 hover:underline text-sm font-bold tracking-wider m-0'>Source: Philippine Embassy Canberra</p>
           </div>

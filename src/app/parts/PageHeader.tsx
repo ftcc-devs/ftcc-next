@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBarMain from './NavBarMain';
-import { useRouter } from 'next/router'
 
 function Header() {
 

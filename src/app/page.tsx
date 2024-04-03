@@ -7,11 +7,13 @@ import SectionJoin from "./parts/SectionJoin";
 import SectionContact from "./parts/SectionContact";
 import SectionNews from "./parts/SectionNews";
 import BackToTopButton from "./parts/BackToTopButton";
+import PopupHomeAnnounceGA from "./parts/PopupHomeAnnounceGA";
 
 export default function Home() {
   return (
     <main className={`font-body text-base md:text-lg xl:text-lg leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
 
+      <PopupHomeAnnounceGA />
       <Header />
       <SectionAbout />
       <SectionServices />
