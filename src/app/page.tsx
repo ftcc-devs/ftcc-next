@@ -8,13 +8,23 @@ import SectionContact from "./parts/SectionContact";
 import SectionNews from "./parts/SectionNews";
 import BackToTopButton from "./parts/BackToTopButton";
 import PopupHomeAnnounceGA from "./parts/PopupHomeAnnounceGA";
+import NavBarMain from "./parts/NavBarMain";
+import HeroHome01 from "./parts/HeroHome01";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Welcome'
+}
+
 
 export default function Home() {
   return (
     <main className={`font-body text-base md:text-lg xl:text-lg leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
 
       <PopupHomeAnnounceGA />
-      <Header />
+      <NavBarMain />
+      <HeroHome01 />
       <SectionAbout />
       <SectionServices />
       <SectionTestimonial />

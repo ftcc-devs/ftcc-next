@@ -2,11 +2,13 @@ import React from 'react'
 import SectionPillars from './SectionPillars';
 import HeadingSection from './HeadingSection';
 import AccordionItem from './AccordionItem';
+import { UIArrowDown } from '../ui/UISVGelements';
+import Link from 'next/link';
 
 function SectionAbout() {
   return (
     <div id='about' className='flex flex-col justify-start md:justify-center items-center w-full px-6'>
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg pt-20 md:pt-40 pb-10'>
 
         <HeadingSection 
           subtitle='About us'
@@ -15,7 +17,7 @@ function SectionAbout() {
 
         <p>We are a community of Filipino tech professionals, students and enthusiasts in Canberra with a shared mission to provide a warm and nurturing space where each member can grow and thrive.</p>
 
-        <div className='flex flex-col my-3 md:my-8 border-2 rounded-xl overflow-hidden *:border-b-2'>
+        <div className='flex flex-col my-3 md:my-8 border rounded-xl overflow-hidden *:border-b'>
           <AccordionItem 
             title="Our Vision and Mission"
             content="FTCC&apos;s mission is to connect, support, and upskill Filipino ICT professionals in Australia and to represent Filipino professionals as highly-skilled and globally competitive talents contributing to Australia&apos;s goal of becoming a top digital economy by 2030."
@@ -42,6 +44,12 @@ function SectionAbout() {
             <SectionPillars />
 
           </div>
+        </div>
+
+        <div className='flex justify-center items-center mt-8 md:mt-20'>
+          <Link href='/#services'>
+            <UIArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
+          </Link>
         </div>
 
       </div>

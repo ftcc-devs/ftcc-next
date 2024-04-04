@@ -1,5 +1,14 @@
 import React from 'react'
 import pillars from '../data/PillarsData';
+import { ObjectHTMLAttributes } from 'react';
+
+interface Pillar {
+  id: string;
+  icon: ObjectHTMLAttributes<SVGElement>;
+  title: string;
+  blurb: string;
+  description: string;
+}
 
 function SectionPillars() {
 

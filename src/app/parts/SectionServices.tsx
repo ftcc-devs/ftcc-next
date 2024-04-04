@@ -5,6 +5,8 @@ import HeadingSection from './HeadingSection';
 import checkedbox from '../../../public/assets/ui/checkbox-checked-regular-36.png';
 import checkbox from '../../../public/assets/ui/checkbox-regular-36.png';
 import Image from 'next/image';
+import Link from 'next/link';
+import { UIArrowDown } from '../ui/UISVGelements';
 
 const bullet = <Image
   src={checkbox}
@@ -25,7 +27,7 @@ const bulletchecked = <Image
 function SectionServices() {
   return (
     <div id='services' className='flex flex-col justify-start md:justify-center items-center w-full px-6 relative'>
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg pb-10 md:pb-20'>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-10 md:py-20'>
 
         <HeadingSection 
           subtitle='Services'
@@ -46,12 +48,12 @@ function SectionServices() {
             <h4 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Programs</h4>
             <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-300 *:pb-5 *:font-medium">
               <li>{bulletchecked}Leadership Program</li>
-              <li>{bullet}Skills Development Workshops</li>
-              <li>{bullet}Resume Writing Classes</li>
               <li>{bulletchecked}Fireside Chats</li>
               <li>{bulletchecked}FTCC Volunteer Devs Program</li>
-              <li>{bullet}Annual FTCC Hackathon</li>
               <li>{bulletchecked}Monthly Socials</li>
+              <li>{bullet}Skills Development Workshops</li>
+              <li>{bullet}Resume Writing Classes</li>
+              <li>{bullet}Annual FTCC Hackathon</li>
             </ul>
           </div>
           
@@ -70,6 +72,12 @@ function SectionServices() {
         <SectionUpComing />
         <SectionGallery />
       </div>
+
+      <div className='flex justify-center items-center mb-8 md:mb-20'>
+          <Link href='/#testimonials'>
+            <UIArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
+          </Link>
+        </div>
 
       {/* <div className="bg-connections w-full h-full absolute z-0 bg-slate-200 -bottom-20 left-0"></div> */}
 

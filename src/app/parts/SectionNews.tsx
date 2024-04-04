@@ -8,7 +8,7 @@ import HeadingSection from './HeadingSection';
 
 function SectionNews() {
   return (
-    <div id='news' className='flex flex-col justify-start md:justify-center items-center w-full px-6 relative'>
+    <div id='news' className='flex flex-col justify-start md:justify-center items-center w-full px-6 relative pt-10 md:pt-20'>
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg'>
 
         <HeadingSection 

@@ -5,14 +5,20 @@ import galleryphotos from '@/app/data/GalleryImages';
 import Image from 'next/image';
 import Link from 'next/link';
 import HeadingSection from '../parts/HeadingSection';
-import UIDivider from '../ui/UIDivider';
+import UIDivider from '../ui/UIDivider'
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Photo Gallery'
+}
 
 function PhotosPage() {
 
   return (
     <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
       
-      <PageHeader />
+      <PageHeader title='Photo Gallery' />
 
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 py-20 md:py-28'>
 

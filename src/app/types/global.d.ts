@@ -37,13 +37,7 @@ declare global {
     featuredimage: GalleryImage;
   }
 
-  interface Pillar {
-    id: string;
-    icon: ObjectHTMLAttributes;
-    title: string;
-    blurb: string;
-    description: string;
-  }
+  
 
   interface Testimonial {
     id: string;

@@ -7,8 +7,7 @@ function Header() {
   return (
     <div className='flex flex-col w-full items-center relative overflow-hidden'>
 
-      <NavBarMain />
-      <HeroHome01 />
+
 
       {/* <div className="bg-connections hidden w-full h-full absolute z-10 bg-slate-200 rotate-180 left-0 translate-y-[60%]"></div> */}
 
