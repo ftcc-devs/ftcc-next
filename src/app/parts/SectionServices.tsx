@@ -6,7 +6,7 @@ import checkedbox from '../../../public/assets/ui/checkbox-checked-regular-36.pn
 import checkbox from '../../../public/assets/ui/checkbox-regular-36.png';
 import Image from 'next/image';
 import Link from 'next/link';
-import { UIArrowDown } from '../ui/UISVGelements';
+import { UISVGArrowDown } from '../ui/UISVGelements';
 
 const bullet = <Image
   src={checkbox}
@@ -75,7 +75,7 @@ function SectionServices() {
 
       <div className='flex justify-center items-center mb-8 md:mb-20'>
           <Link href='/#testimonials'>
-            <UIArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
+            <UISVGArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
           </Link>
         </div>
 

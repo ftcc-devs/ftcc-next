@@ -1,8 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import ftccevent01 from '../../../public/assets/images/gallery/ftcc-event-01.webp';
-import guests from '../../../public/assets/images/gallery/guests-01.webp';
-import michaelspeaking from '../../../public/assets/images/gallery/michael-speaking-01.webp';
 
 function SectionMediaMentions() {
   return (

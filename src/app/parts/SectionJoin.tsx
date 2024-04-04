@@ -3,7 +3,7 @@ import AccordionItem from './AccordionItem';
 import HeadingSection from './HeadingSection';
 import UIButton from '../components/UIButtons';
 import Link from 'next/link';
-import { UIArrowDown } from '../ui/UISVGelements';
+import { UISVGArrowDown } from '../ui/UISVGelements';
 
 function SectionJoin() {
   return (
@@ -38,7 +38,7 @@ function SectionJoin() {
 
       <div className='flex justify-center items-center mb-8 md:mb-20'>
           <Link href='/#news'>
-            <UIArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
+            <UISVGArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
           </Link>
         </div>
 

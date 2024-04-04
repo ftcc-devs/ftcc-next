@@ -2,7 +2,7 @@ import React from 'react'
 import SectionPillars from './SectionPillars';
 import HeadingSection from './HeadingSection';
 import AccordionItem from './AccordionItem';
-import { UIArrowDown } from '../ui/UISVGelements';
+import { UISVGArrowDown } from '../ui/UISVGelements';
 import Link from 'next/link';
 
 function SectionAbout() {
@@ -48,7 +48,7 @@ function SectionAbout() {
 
         <div className='flex justify-center items-center mt-8 md:mt-20'>
           <Link href='/#services'>
-            <UIArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
+            <UISVGArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
           </Link>
         </div>
 

@@ -2,21 +2,6 @@ import React from 'react'
 import pillars from '../data/PillarsData';
 import Image from 'next/image';
 import trophy from '../../../public/assets/ui/trophy-regular-36.png'
-import { StaticImageData } from 'next/image';
-import { stringify } from 'querystring';
-
-interface UISVGProps {
-  fillColor?: string;
-  className?: string;
-}
-
-interface Pillar {
-  id: string;
-  icon: Element | { UITrophy: ({ fillColor, className }: UISVGProps) => Promise<StaticImageData>; };
-  title: string;
-  blurb: string;
-  description: string;
-}
 
 function SectionPillars() {
 

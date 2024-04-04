@@ -25,7 +25,7 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
       <PageHeader title={photo.title} />
 
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6'>
-        <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
+        <div className='flex flex-col justify-start items:start w-full max-w-screen-lg pt-6 pb-20 md:pb-36'>
 
           <div className='grid grid-cols-3 gap-8'>
             <div className='col-span-3 md:col-span-2 border-4 border-slate-900'>

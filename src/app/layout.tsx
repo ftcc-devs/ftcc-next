@@ -4,7 +4,7 @@ import { openGraphImage } from "./shared-metadata";
 import { fontheading, fontbody } from "./fonts";
 
 export const metadata: Metadata = {
-  // metadataBase: new URL('https://ftcc.org.au'),
+  metadataBase: new URL('https://ftcc.org.au'),
   title: {
     default: 'FTCC - Filipino Tech Community Canberra',
     template: '%s | FTCC',
