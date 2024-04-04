@@ -1,4 +1,4 @@
-import PageFooter from '@/app/parts/PageFooter';
+import Footer from '@/app/parts/Footer';
 import PageHeader from '@/app/parts/PageHeader';
 import React, { FC } from 'react';
 import galleryphotos from '@/app/data/GalleryImages';
@@ -9,7 +9,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: 'Welcome'
 }
-
 
 interface ImageDetailPageProps {
   params: {
@@ -51,8 +50,7 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
         </div>
       </div>
 
-
-      <PageFooter />
+      <Footer />
     </main>
   )
 }

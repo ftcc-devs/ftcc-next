@@ -1,5 +1,10 @@
 import React from 'react'
 
+interface Heading {
+  subtitle?: string;
+  title: string;
+}
+
 function HeadingSection(props:Heading) {
   return (
     <div className='flex flex-col items-start w-full pb-8 md:pb-16'>

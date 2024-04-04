@@ -2,6 +2,11 @@
 
 import { useState } from 'react';
 
+interface AccordionItem {
+  title: string;
+  content: string;
+}
+
 function AccordionItem(props:AccordionItem) {
   
   const [isClose, setIsClose] = useState(true);

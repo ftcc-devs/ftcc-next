@@ -51,14 +51,5 @@ declare global {
     avatar: string | StaticImageData;
   }
 
-  interface Heading {
-    subtitle?: string;
-    title: string;
-  }
-
-  interface AccordionItem {
-    title: string;
-    content: string;
-  }
 
 }

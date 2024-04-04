@@ -1,5 +1,10 @@
 import React from 'react'
 
+interface Heading {
+  subtitle?: string;
+  title: string;
+}
+
 function HeadingSectionReverse(props:Heading) {
   return (
     <div className='flex flex-col items-start w-full pb-4 mb-8 border-b-slate-500 border-dotted'>

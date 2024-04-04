@@ -29,7 +29,7 @@ function Footer() {
               </Link>
             </div>
             <div className='pl-0 md:pl-20 mt-8'>
-              <p className='text-indigo-300 pr-0 md:pr-20'>Filipino Tech Community Canberra Incorporation is a duly-registered community association as conferred by the Australian Capital Territory government.</p>
+              <p className='text-slate-300 pr-0 md:pr-20'>Filipino Tech Community Canberra Incorporation is a duly-registered community association as conferred by the Australian Capital Territory government.</p>
             </div>
           </div>
 
@@ -61,7 +61,11 @@ function Footer() {
 
         </div>
 
-        <div id="copyright" className='flex flex-col lg:flex-row w-full justify-between items-start lg:items-center py-4 my-16 border-t-2 border-dotted border-slate-700 text-slate-400 text-sm'>
+        <div className='mt-16'>
+          <p className='text-slate-500 font-heading'>The FTCC acknowledges the Ngunnawal people as traditional custodians of the ACT and recognise any other people or families with connection to the lands of the ACT and region. We acknowledge and respect their continuing culture and the contributions.</p>
+        </div>
+
+        <div id="copyright" className='flex flex-col lg:flex-row w-full justify-between items-start lg:items-center py-4 mb-16 border-t-2 border-dotted border-slate-700 text-slate-400 text-sm'>
           <div>Copyright ©2024 All rights reserved.</div>
           <div>Follow us on <a href="https://www.facebook.com/profile.php?id=100094100317256" className='underline'>Facebook</a> and <a href="https://www.linkedin.com/company/100923935/" className='underline'>LinkedIn</a></div>
         </div>
