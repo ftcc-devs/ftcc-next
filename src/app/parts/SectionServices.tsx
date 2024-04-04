@@ -46,7 +46,7 @@ function SectionServices() {
 
           <div  className='mb-8 col-span-2 md:col-span-2'>
             <h4 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Programs</h4>
-            <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-300 *:pb-5 *:font-medium">
+            <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-200 *:pb-5 *:font-medium">
               <li>{bulletchecked}Leadership Program</li>
               <li>{bulletchecked}Fireside Chats</li>
               <li>{bulletchecked}FTCC Volunteer Devs Program</li>
@@ -59,7 +59,7 @@ function SectionServices() {
           
           <div  className='mb-8 col-span-2 md:col-span-2'>
             <h4 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Services</h4>
-            <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-300 *:pb-5 *:font-medium">
+            <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-200 *:pb-5 *:font-medium">
               <li>{bulletchecked}Resume Review</li>
               <li>{bullet}Mock Interviews</li>
               <li>{bullet}Job Boards</li>

@@ -11,11 +11,11 @@ import PopupHomeAnnounceGA from "./parts/PopupHomeAnnounceGA";
 import NavBarMain from "./parts/NavBarMain";
 import HeroHome01 from "./parts/HeroHome01";
 
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: 'Welcome'
-}
+// export const metadata: Metadata = {
+//   title: 'FTCC Home',
+// }
 
 
 export default function Home() {

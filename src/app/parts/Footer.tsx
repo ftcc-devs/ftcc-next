@@ -29,7 +29,7 @@ function Footer() {
               </Link>
             </div>
             <div className='pl-0 md:pl-20 mt-8'>
-              <p className='text-slate-300 pr-0 md:pr-20'>Filipino Tech Community Canberra Incorporation is a duly-registered community association as conferred by the Australian Capital Territory government.</p>
+              <p className='text-slate-300 pr-0 md:pr-20'>Filipino Tech Community Canberra Incorporation is a duly-incorporated community association as conferred by the ACT government.</p>
             </div>
           </div>
 
