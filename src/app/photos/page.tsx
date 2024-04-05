@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 function PhotosPage() {
 
   return (
-    <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
+    <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full relative`}>
       
       <PageHeader title='Photo Gallery' />
 

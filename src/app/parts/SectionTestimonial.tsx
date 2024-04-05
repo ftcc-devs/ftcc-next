@@ -49,6 +49,7 @@ function SectionTestimonial() {
 
       </div>
 
+      {/* background */}
       <div className="bg-connections w-full h-full absolute z-0 bg-slate-200 -bottom-28 left-0"></div>
 
     </div>

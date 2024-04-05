@@ -12,7 +12,7 @@ function NavBarMain() {
   const [menuToggle, setMenuToggle] = useState(true);
 
   return (
-    <div id='navbar' className='fixed flex flex-row justify-between items-center md:items-end w-full z-20 px-6 lg:px-12 pt-6 pb-5 lg:pt-18 lg:pb-18 bg-white shadow-sm'>
+    <div id='navbar' className='fixed flex flex-row justify-between items-center md:items-end w-full z-40 px-6 lg:px-12 pt-6 pb-5 lg:pt-18 lg:pb-18 bg-white'>
 
       <div id="logo" className='w-[140px] lg:w-[160px] -ml-1 md:ml-0'>
         <Link href="/">

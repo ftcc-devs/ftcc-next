@@ -11,9 +11,9 @@ function PopupHomeAnnounceGA() {
   const [closePopup, setClosePopup] = useState(false);
 
   return (
-    <div className={`fixed top-0 left-0 z-30 w-full h-screen text-sm md:text-lg justify-center items-center bg-slate-900/90 p-8 ${closePopup ? 'hidden' : 'flex'}`}>
+    <div className={`fixed top-0 left-0 z-50 w-full h-screen text-sm md:text-lg justify-center items-center bg-slate-900/90 dark:bg-slate-900 p-8 ${closePopup ? 'hidden' : 'flex'}`}>
       
-      <div className='relative z-50 w-[1000px] h-[640px] flex flex-col md:flex-row border-0 border-white rounded-xl bg-indigo-50 shadow-lg overflow-hidden'>
+      <div className='relative z-50 w-[1000px] h-[640px] flex flex-col md:flex-row border-0 border-white rounded-xl bg-indigo-50 dark:bg-indigo-950 shadow-lg overflow-hidden'>
         <div className='flex flex-col justify-between px-8 md:px-12 pt-10 md:pt-20 pb-6'>
           <div>
             <div className='mb-2 mt-4 md:mt-12'>03 May 2024 | AWS Canberra</div>

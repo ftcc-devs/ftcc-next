@@ -4,6 +4,8 @@ import HeadingSection from './HeadingSection';
 import AccordionItem from './AccordionItem';
 import { UISVGArrowDown } from '../ui/UISVGelements';
 import Link from 'next/link';
+import UIAccordion from '../ui/UIAccordion';
+import UIAccordionItem from '../ui/UIAccordionItem';
 
 function SectionAbout() {
   return (
@@ -17,21 +19,21 @@ function SectionAbout() {
 
         <p>We are a community of Filipino tech professionals, students and enthusiasts in Canberra with a shared mission to provide a warm and nurturing space where each member can grow and thrive.</p>
 
-        <div className='flex flex-col my-3 md:my-8 border rounded-xl overflow-hidden *:border-b'>
-          <AccordionItem 
-            title="Our Vision and Mission"
-            content="FTCC&apos;s mission is to connect, support, and upskill Filipino ICT professionals in Australia and to represent Filipino professionals as highly-skilled and globally competitive talents contributing to Australia&apos;s goal of becoming a top digital economy by 2030."
-          />
-          <AccordionItem 
-            title="Our Objectives"
-            content="
-              Our objectives include
-              providing a platform to network with peers, share experiences and ideas, and collaborate within the Filipino Tech Community in the ACT,
-              enabling and upskilling Filipino professionals/advocates/students to broaden/deepen their tech knowledge and skills, advance their careers, and remain relevant with the fast-pace developments in the ICT industry, and
-              supporting Filipino migrants and ACT residents wanting to start a career in ICT.
-            "
-          />
-        </div>
+        <UIAccordion className='flex flex-col my-3 md:my-8 border border-slate-300 dark:border-slate-500 rounded-xl overflow-hidden *:border-b-slate-300 *:dark:border-b-slate-500'>
+          <UIAccordionItem title='Our Vision and Mission' className=''>
+            <p>FTCC&apos;s mission is to connect, support, and upskill Filipino ICT professionals in Australia and to represent Filipino professionals as highly-skilled and globally competitive talents contributing to Australia&apos;s goal of becoming a top digital economy by 2030.</p>
+            <p>To represent Filipino professionals as highly-skilled and globally competitive talents contributing to Australia&apos;s goal of becoming a top digital economy by 2030.</p>
+          </UIAccordionItem>
+          <UIAccordionItem title='Our Objectives'>
+            <p>Our objectives include:</p>
+            <ul className='list-square pl-10 *:mb-4'>
+              <li>providing a platform to network with peers, share experiences and ideas, and collaborate within the Filipino Tech Community in the ACT,</li>
+              <li>enabling and upskilling Filipino professionals/advocates/students to broaden/deepen their tech knowledge and skills, advance their careers, and remain relevant with the fast-pace developments in the ICT industry, and</li>
+              <li>supporting Filipino migrants and ACT residents wanting to start a career in ICT.</li>
+            </ul>
+          </UIAccordionItem>
+        </UIAccordion>
+
 
         <div id='pillars' className='mb-8'>
           <div>

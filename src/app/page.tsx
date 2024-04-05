@@ -20,7 +20,7 @@ import HeroHome01 from "./parts/HeroHome01";
 
 export default function Home() {
   return (
-    <main className={`font-body text-base md:text-lg xl:text-lg leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
+    <main className={`font-body text-base md:text-lg xl:text-lg leading-relaxed flex flex-col items-center w-full relative`}>
 
       <PopupHomeAnnounceGA />
       <NavBarMain />

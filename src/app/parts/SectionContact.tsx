@@ -3,7 +3,7 @@ import HeadingSection from './HeadingSection';
 
 function SectionContact() {
   return (
-    <div id='contact' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-indigo-50'>
+    <div id='contact' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-indigo-50 dark:bg-slate-500'>
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
 
         <HeadingSection 

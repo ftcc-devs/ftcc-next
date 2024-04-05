@@ -21,7 +21,7 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
   const photo:any = galleryphotos.find(p => p.id === params.id );
 
   return (
-    <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full text-slate-900 relative`}>
+    <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full relative`}>
       <PageHeader title={photo.title} />
 
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6'>
