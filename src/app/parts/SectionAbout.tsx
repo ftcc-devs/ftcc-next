@@ -50,7 +50,7 @@ function SectionAbout() {
 
         <div className='flex justify-center items-center mt-8 md:mt-20'>
           <Link href='/#services'>
-            <UISVGArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700' />
+            <UISVGArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700 hover:scale-125 transition duration-300' />
           </Link>
         </div>
 

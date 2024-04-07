@@ -4,29 +4,23 @@ import React, { FC } from 'react';
 import galleryphotos from '@/app/data/GalleryImages';
 import Image from 'next/image';
 import Link from 'next/link';
-import HeadingSection from '../parts/HeadingSection';
-import UIDivider from '../ui/UIDivider'
+import HeadingSection from '@/app/parts/HeadingSection';
+import UIDivider from '@/app/ui/UIDivider';
 
 import { Metadata } from "next";
-import UIPageNav from '../ui/UIPageNav';
-import UIButton from '../components/UIButtons';
 
 export const metadata: Metadata = {
-  title: 'Photo Gallery'
+  title: 'Privacy Policy'
 }
 
-function PhotosPage() {
+function PostPage() {
 
   return (
     <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full relative`}>
       
       <PageHeader title='Photo Gallery' />
 
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-xl px-6 pb-20 md:pb-28'>
-
-        <div className='flex flex-row w-full mt-10 md:mt-24 mb-10 bg-slate-100 rounded-lg overflow-hidden'>
-          <UIPageNav />
-        </div>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 py-20 md:py-28'>
 
         <HeadingSection 
           subtitle='Photo Gallery'
@@ -52,7 +46,7 @@ function PhotosPage() {
             ))}
           </div>
         </div>
-      </div>  
+      </div>
 
       <UIDivider />
 
@@ -61,4 +55,4 @@ function PhotosPage() {
   )
 }
 
-export default PhotosPage;
+export default PostPage;

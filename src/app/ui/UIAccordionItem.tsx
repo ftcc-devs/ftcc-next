@@ -24,7 +24,7 @@ const UIAccordionItem = ({ children, className, title }: UIAccordionProps) => {
         </div>
       </div>
       <div className={`overflow-hidden ${isClose ? 'h-0' : 'h-fit'} transition duration-300`}>
-        <div className='pl-6 py-6 pr-28'>
+        <div className='pl-6 py-6 pr-8 lg:pr-28'>
           {children}
         </div>
       </div>

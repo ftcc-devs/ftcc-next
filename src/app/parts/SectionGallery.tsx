@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import galleryphotos from '@/app/data/GalleryImages';
+import UIButton from '../components/UIButtons';
 
 function SectionGallery() {
 
@@ -27,6 +28,11 @@ function SectionGallery() {
         ))}
         
       </div>
+
+      <div className='w-full mt-6 md:mt-20'>
+        <UIButton version='primary' href='/photos'>View Photo Gallery</UIButton>
+      </div>
+
     </div>
   )
 }

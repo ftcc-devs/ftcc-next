@@ -14,7 +14,7 @@ function Footer() {
 
         <div id="footer-menu-row" className='grid grid-cols-3 md:grid-cols-6 gap-4 lg:gap-8 text-md'>
 
-          <div id="footer-logo" className="col-span-3 md:col-span-3  flex flex-col gap-4">
+          <div id="footer-logo" className="col-span-3 md:col-span-4  flex flex-col gap-4">
             <div className='w-[185px]'>
               <Link href='/'>
                 <Image
@@ -29,29 +29,34 @@ function Footer() {
               </Link>
             </div>
             <div className='pl-0 md:pl-20 mt-8'>
-              <p className='text-slate-300 pr-0 md:pr-20'>Filipino Tech Community Canberra Incorporation is a duly-incorporated community association as conferred by the ACT government.</p>
+              <p className='text-slate-300 pr-0 md:pr-20'>Filipino Tech Community Canberra &#40;FTCC&#41; is a duly-incorporated association by the ACT government.</p>
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
+          {/* <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
             <a href="#" className='hover:text-indigo-100'>Privacy Policy</a>
             <a href="#" className='hover:text-indigo-100'>Cookie Policy</a>
             <a href="#" className='hover:text-indigo-100'>Terms and Conditions</a>
             <a href="#" className='hover:text-indigo-100'>Disclaimer</a>
-          </div>
+          </div> */}
           
-          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
+          {/* <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
             <a href="#" className='hover:text-indigo-100'>About</a>
             <a href="#" className='hover:text-indigo-100'>Events</a>
-            <a href="#" className='hover:text-indigo-100'>Photo Gallery</a>
+            <a href="/photos" className='hover:text-indigo-100'>Photo Gallery</a>
             <a href="#" className='hover:text-indigo-100'>Members</a>
             <a href="#" className='hover:text-indigo-100'>Blog</a>
             <a href="#" className='hover:text-indigo-100'>Join</a>
             <a href="#" className='hover:text-indigo-100'>FAQ</a>
+          </div> */}
+
+          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
+            <a href="/photos" className='hover:text-indigo-100'>Photo Gallery</a>
+            <a href="/privacypolicy" className='hover:text-indigo-100'>Privacy Policy</a>
           </div>
 
           <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
-            <a href="/" className='hover:text-indigo-100'>Home</a>
+            <a href="/#top" className='hover:text-indigo-100'>Home</a>
             <a href="/#about" className='hover:text-indigo-100'>About</a>
             <a href="/#services" className='hover:text-indigo-100'>Services</a>
             <a href="/#join" className='hover:text-indigo-100'>Membership</a>

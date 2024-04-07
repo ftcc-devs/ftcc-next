@@ -15,7 +15,7 @@ function NavBarMain() {
     <div id='navbar' className='fixed flex flex-row justify-between items-center md:items-end w-full z-40 px-6 lg:px-12 pt-6 pb-5 lg:pt-18 lg:pb-18 bg-white'>
 
       <div id="logo" className='w-[140px] lg:w-[160px] -ml-1 md:ml-0'>
-        <Link href="/">
+        <Link href="/#top">
           <Image 
             src={logomain}
             alt='FTCC logo'
@@ -40,7 +40,7 @@ function NavBarMain() {
           <ul className={`lg:flex flex-row tracking-wider font-heading *:transition-all *:duration-300 *:py-2 *:px-2
                             ${menuToggle  ? 'hidden text-slate-700 gap-4 lg:gap-8' : 'flex flex-col justify-start items-start text-indigo-200 gap-4'}
                           `}>
-            <li><Link href="/" className='hover:text-indigo-500'>Home</Link></li>
+            <li><Link href="/#top" className='hover:text-indigo-500'>Home</Link></li>
             <li><Link href="/#about" className='hover:text-indigo-500'>About</Link></li>
             <li><Link href="/#services" className='hover:text-indigo-500'>Services</Link></li>
             <li><Link href="/#join" className='hover:text-indigo-500'>Membership</Link></li>
