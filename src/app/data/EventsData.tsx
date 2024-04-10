@@ -1,11 +1,11 @@
 const events : FTCCEvent[] = [
   {
     id: '1',
-    date: '2024-05-03T17:30:00.000+10:00',
+    date: '2024-05-03T18:00:00.000+10:00',
     title: 'FTCC Inaugural General Assembly',
     venue: 'AWS Offices Canberra',
     fblink: 'https://www.facebook.com/events/7301289616591606',
-    googlecalendarlink: 'https://calendar.google.com/calendar/u/1/r/eventedit?text=FTCC+Inaugural+General+Assembly&dates=20240503T053000/20240503T073000',
+    googlecalendarlink: 'https://calendar.google.com/calendar/u/1/r/eventedit?text=FTCC+Inaugural+General+Assembly&dates=20240503T180000/20240503T200000&location=AWS%20Canberra',
     highlight: true,
   },
   {
@@ -14,7 +14,7 @@ const events : FTCCEvent[] = [
     title: 'Philippine Independence Day Celebration',
     venue: 'Philippine Embassy Canberra',
     fblink: 'https://www.philembassy.org.au/',
-    googlecalendarlink: 'https://calendar.google.com/calendar/u/1/r/eventedit?text=Philippine+Independence+Day+Celebration&dates=20240612T090000/20240612T130000',
+    googlecalendarlink: 'https://calendar.google.com/calendar/u/1/r/eventedit?text=Philippine+Independence+Day+Celebration&dates=20240612T090000/20240612T130000&location=Philippine%20Embassy%20Canberra',
     highlight: false,
   },
   {

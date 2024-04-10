@@ -35,7 +35,7 @@ function SectionJoin() {
           </UIAccordionItem>
         </UIAccordion>
 
-        <UIButton href='/' version='primary'>Membership form</UIButton>
+        <UIButton href='https://docs.google.com/forms/d/e/1FAIpQLScEbu9rWjeY6MOVN2twtYBfcyzMel6s6o2h-F5nh6gubFOgWA/viewform' target='_blank' version='primary'>Membership form</UIButton>
 
       </div>
 

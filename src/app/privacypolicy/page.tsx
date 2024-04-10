@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import UIDivider from '../ui/UIDivider';
 import UIPageNav from '../ui/UIPageNav';
 import HeadingSection from '../parts/HeadingSection';
+import BackToTopButton from '../parts/BackToTopButton';
 
 export const metadata: Metadata = {
   title: 'Photo Gallery'
@@ -121,6 +122,7 @@ export default function PrivacyPolicyPage() {
       </div>
 
       <UIDivider />
+      <BackToTopButton />
       <Footer />
 
     </main>

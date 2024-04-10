@@ -56,7 +56,7 @@ function Footer() {
           </div>
 
           <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
-            <a href="/#top" className='hover:text-indigo-100'>Home</a>
+            <a href="/" className='hover:text-indigo-100'>Home</a>
             <a href="/#about" className='hover:text-indigo-100'>About</a>
             <a href="/#services" className='hover:text-indigo-100'>Services</a>
             <a href="/#join" className='hover:text-indigo-100'>Membership</a>

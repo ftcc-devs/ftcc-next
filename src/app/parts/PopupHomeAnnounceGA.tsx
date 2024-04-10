@@ -22,7 +22,7 @@ function PopupHomeAnnounceGA() {
             <p className='mt-4 md:mt-8 font-bold mb-2 md:mb-4'>🎉 Join Us for the Filipino Tech Community in Canberra&apos;s Inaugural General Assembly! </p>
             <p className=''>🤩 We&apos;re excited to invite you to an important gathering dedicated to shaping the future of FTCC.</p>
           </div>
-          <UIButton href='https://www.facebook.com/events/7301289616591606' version='secondary'>RSVP to Event</UIButton>
+          <UIButton href='https://www.facebook.com/events/7301289616591606' target='_blank' version='secondary'>RSVP to Event</UIButton>
         </div>
         <div className='row-span-1 sm:row-span-3 h-full sm:col-span-1 object-cover overflow-hidden relative'>
           <div className='w-2/3 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2'>
