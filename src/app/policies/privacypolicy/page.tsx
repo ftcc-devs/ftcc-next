@@ -1,13 +1,13 @@
 import Footer from '@/app/parts/Footer';
 import PageHeader from '@/app/parts/PageHeader';
 import { Metadata } from "next";
-import UIDivider from '../ui/UIDivider';
-import UIPageNav from '../ui/UIPageNav';
-import HeadingSection from '../parts/HeadingSection';
-import BackToTopButton from '../parts/BackToTopButton';
+import UIDivider from '../../ui/UIDivider';
+import UIPageNav from '../../ui/UIPageNav';
+import HeadingSection from '../../parts/HeadingSection';
+import BackToTopButton from '../../parts/BackToTopButton';
 
 export const metadata: Metadata = {
-  title: 'Photo Gallery'
+  title: 'Privacy Policy'
 }
 
 export default function PrivacyPolicyPage() {
@@ -16,11 +16,7 @@ export default function PrivacyPolicyPage() {
 
       <PageHeader title='Privacy Policy' />
 
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 pb-20 md:pb-28'>
-
-        <div className='flex flex-row w-full mt-10 md:mt-24 mb-10 bg-slate-500/10 rounded-lg overflow-hidden'>
-          <UIPageNav />
-        </div>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 py-20 md:py-28'>
 
         <HeadingSection
           subtitle='FTCC Policies'
@@ -115,6 +111,9 @@ export default function PrivacyPolicyPage() {
           <h3>Contact Us</h3>
 
           <p>If you have questions, concerns, or wish to exercise your rights, please contact:</p>
+          <ul className='my-6 md:my-10 list-square pl-8 *:pb-3'>
+            <li>By email: <a href="mailto:hello@ftcc.org.au">hello@ftcc.org.au</a></li>
+          </ul>
 
         </div>
 

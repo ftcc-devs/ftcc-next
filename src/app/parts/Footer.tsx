@@ -55,7 +55,8 @@ function Footer() {
 
           <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
             <a href="/photos" className='hover:text-indigo-100'>Photo Gallery</a>
-            <a href="/privacypolicy" className='hover:text-indigo-100'>Privacy Policy</a>
+            <a href="/policies/privacypolicy" className='hover:text-indigo-100'>Privacy Policy</a>
+            <a href="/policies/cookiepolicy" className='hover:text-indigo-100'>Cookies Policy</a>
           </div>
 
           <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
