@@ -3,6 +3,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 function Footer() {
+
+  const currentDate = new Date();
+
   return (
     <div className='text-base flex flex-col justify-start md:justify-start items-center w-full pt-24 md:pt-36 pb-12 md:pb-20 px-6 bg-indigo-950 text-slate-200'>
       <div className="w-full flex flex-col items-center max-w-screen-lg">
@@ -71,8 +74,8 @@ function Footer() {
         </div>
 
         <div id="copyright" className='flex flex-col lg:flex-row w-full justify-between items-start lg:items-center py-4 mb-16 border-t-2 border-dotted border-slate-700 text-slate-400 text-sm'>
-          <div>Copyright ©2024 All rights reserved.</div>
-          <div>Follow us on <a href="https://www.facebook.com/profile.php?id=100094100317256" className='underline'>Facebook</a> and <a href="https://www.linkedin.com/company/100923935/" className='underline'>LinkedIn</a></div>
+          <div>Copyright ©{ currentDate.getFullYear() } All rights reserved.</div>
+          <div>Follow us on <a href="https://www.facebook.com/filotechcanberra" target='_blank' className='underline'>Facebook</a> and <a href="https://www.linkedin.com/company/filotechcanberra/" target='_blank' className='underline'>LinkedIn</a></div>
         </div>
 
       </div>

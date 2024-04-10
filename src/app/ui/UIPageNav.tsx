@@ -8,8 +8,6 @@ export default function UIPageNav() {
 
   const pathname = usePathname()
   const pathNameArray = pathname.split('/').slice(1,2)
-  console.log(pathname)
-  console.log(pathNameArray)
   
   const pageNavLinks = pathNameArray.map((path, key) => {
     return (
