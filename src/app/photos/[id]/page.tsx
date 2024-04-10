@@ -7,6 +7,7 @@ import UIPageNav from '@/app/ui/UIPageNav';
 
 import { Metadata } from "next";
 import UIDivider from '@/app/ui/UIDivider';
+import { UISVGOpenNewWindow } from '@/app/ui/UISVGelements';
 
 export const metadata: Metadata = {
   title: 'Photo Details',
@@ -22,6 +23,11 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
 
   const photo:any = galleryphotos.find(p => p.id === params.id );
 
+  const photoDate = () => {
+    const date = new Date(photo.date)
+    return <span>{`${ date }`}</span>
+  }
+
   return (
     <main className={`font-body text-base md:text-lg xl:text-base leading-relaxed flex flex-col items-center w-full relative`}>
       
@@ -33,24 +39,28 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
           <UIPageNav />
         </div>
 
-        <div className='grid grid-cols-3 gap-8'>
-          <div className='col-span-3 md:col-span-2'>
+        <div className='grid grid-cols-3 gap-8 w-full'>
+          <div className='col-span-3 md:col-span-3 overflow-hidden w-full'>
             <Image
               src={photo.src}
               alt={photo.title}
-              width={840}
-              height={600}
-              sizes="(min-width: 60em) 24vw, (min-width: 28em) 45vw, 100vw"
+              width={1200}
+              height={800}
+              sizes='
+                (max-width: 700px) 100vw,
+                (max-width: 1200px) 60vw,
+                60vw
+              '
               style={{
                 objectFit: 'cover',
               }}
             />
           </div>
-          <div className='col-span-3 md:col-span-1 *:border-b-2 *:border-b-slate-400/10 *:md:pb-6 *:pb-3'>
-            <p>Title: {photo.title}</p>
-            <p>Event: {photo.date}</p>
-            <p>Album: {photo.album}</p>
-            <p>Link: {photo.link}</p>
+          <div className='col-span-3 md:col-span-3 *:border-b *:border-b-slate-400/20 *:md:pb-4 *:pb-2 *:flex *:flex-row *:gap-2'>
+            <p>Title: &quot;{photo.title}&quot;</p>
+            <p>Date: {photoDate()}</p>
+            <p>Album: {photo.album} <a href={photo.link} target='_blank'><UISVGOpenNewWindow /></a></p>
+            
           </div>
         </div>
       </div>
