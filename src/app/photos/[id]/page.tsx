@@ -27,14 +27,14 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
       
       <PageHeader title={photo.title} />
 
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-xl px-6 pb-20 md:pb-28'>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 pb-20 md:pb-28'>
 
-      <div className='flex flex-row w-full mt-10 md:mt-24 mb-10 bg-slate-100 rounded-lg overflow-hidden'>
+      <div className='flex flex-row w-full mt-10 md:mt-24 mb-10 bg-slate-500/10 rounded-lg overflow-hidden'>
           <UIPageNav />
         </div>
 
         <div className='grid grid-cols-3 gap-8'>
-          <div className='col-span-3 md:col-span-2 border-4 border-slate-900'>
+          <div className='col-span-3 md:col-span-2'>
             <Image
               src={photo.src}
               alt={photo.title}
@@ -46,7 +46,7 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
               }}
             />
           </div>
-          <div className='col-span-3 md:col-span-1 *:border-b-2 *:md:pb-6 *:pb-3'>
+          <div className='col-span-3 md:col-span-1 *:border-b-2 *:border-b-slate-400/10 *:md:pb-6 *:pb-3'>
             <p>Title: {photo.title}</p>
             <p>Event: {photo.date}</p>
             <p>Album: {photo.album}</p>

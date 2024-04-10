@@ -22,9 +22,9 @@ function PhotosPage() {
       
       <PageHeader title='Photo Gallery' />
 
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-xl px-6 pb-20 md:pb-28'>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 pb-20 md:pb-28'>
 
-        <div className='flex flex-row w-full mt-10 md:mt-24 mb-10 bg-slate-100 rounded-lg overflow-hidden'>
+        <div className='flex flex-row w-full mt-10 md:mt-24 mb-10 bg-slate-400/10 rounded-lg overflow-hidden'>
           <UIPageNav />
         </div>
 

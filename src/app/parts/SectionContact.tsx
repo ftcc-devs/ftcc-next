@@ -3,7 +3,7 @@ import HeadingSection from './HeadingSection';
 
 function SectionContact() {
   return (
-    <div id='contact' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-indigo-50 dark:bg-slate-500'>
+    <div id='contact' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-indigo-50 dark:bg-slate-800/50'>
       <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-36'>
 
         <HeadingSection 
@@ -20,8 +20,8 @@ function SectionContact() {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 stroke-indigo-700"><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" /></svg>
               </div>
               <h4 className='text-base uppercase font-bold'>Send us an email</h4>
-              <p className=''>For questions, comments and suggestions, send an email to hello@ftcc.org.au</p>
-              <a href="#about" className='font-heading text-sm font-semibold uppercase w-full md:w-fit px-4 md:px-8 py-4 bg-transparent hover:bg-indigo-900 border-2 border-indigo-700 hover:border-indigo-900 hover:shadow-glow text-indigo-700 hover:text-white rounded-lg tracking-wider transition duration-300'>Send an email</a>
+              <p className=''>For questions, comments and suggestions, send an email to <a href="mailto:hello@ftcc.org.au">hello@ftcc.org.au</a></p>
+              <a href="mailto:hello@ftcc.org.au" className='font-heading text-sm font-semibold uppercase w-full md:w-fit px-4 md:px-8 py-4 bg-transparent hover:bg-indigo-900 border-2 border-indigo-700 hover:border-indigo-900 hover:shadow-glow text-indigo-700 hover:text-white rounded-lg tracking-wider transition duration-300'>Send an email</a>
             </div>
             
             <div className='flex flex-col items-center text-center pt-8 md:pt-12 pb-4 md:pb-8 px-4 md:px-6 rounded-lg gap-2 md:gap-4'>

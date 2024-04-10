@@ -4,7 +4,7 @@ const events : FTCCEvent[] = [
     date: '2024-05-03T17:30:00.000+10:00',
     title: 'FTCC Inaugural General Assembly',
     venue: 'AWS Offices Canberra',
-    fblink: 'https://www.facebook.com/filotechcanberra',
+    fblink: 'https://www.facebook.com/events/7301289616591606',
     googlecalendarlink: 'https://calendar.google.com/calendar/u/1/r/eventedit?text=FTCC+Inaugural+General+Assembly&dates=20240503T053000/20240503T073000',
     highlight: true,
   },

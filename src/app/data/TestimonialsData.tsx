@@ -15,8 +15,8 @@ const testimonials: Testimonial[] = [
   },
   {
     id: '2',
-    blurb: 'The community aims to connect people who are passionate about technology, from senior execs to early career professionals and university students who are in tech degrees.',
-    fullstatement: 'The community aims to connect people who are passionate about technology, from senior execs to early career professionals and university students who are in tech degrees.',
+    blurb: 'The idea of FTCC stemmed from my desire to give back to the community. And I was fortunate to find people who shared the same passion, which is to help others and create a support network for ICT Professionals in Australia - and that’s how we launched the Filipino Tech Community Canberra. My hope is that we help build the next workforce and leaders in ICT who excel not only in their domain or specialisation, but are actively taking a role in shaping an inclusive, equitable, and nurturing tech industry in Australia.',
+    fullstatement: 'The idea of FTCC stemmed from my desire to give back to the community. And I was fortunate to find people who shared the same passion, which is to help others and create a support network for ICT Professionals in Australia - and that’s how we launched the Filipino Tech Community Canberra. My hope is that we help build the next workforce and leaders in ICT who excel not only in their domain or specialisation, but are actively taking a role in shaping an inclusive, equitable, and nurturing tech industry in Australia.',
     name: 'Arvi Vito',
     ftccdesignation: 'FTCC, Co-founder',
     link1: '',
