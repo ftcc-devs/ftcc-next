@@ -1,6 +1,14 @@
-import { FC} from 'react';
-import { GalleryImage } from '../types/imagegallery';
+import { FC } from 'react';
 import Image from 'next/image';
+
+interface GalleryImage {
+  id: string;
+  src: string;
+  link?: string;
+  title: string;
+  album?: string;
+  date?: string;
+}
 
 interface ImageDetailProps {
   photo: GalleryImage;

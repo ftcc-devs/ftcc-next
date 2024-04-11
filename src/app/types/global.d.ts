@@ -37,8 +37,6 @@ declare global {
     featuredimage: GalleryImage;
   }
 
-  
-
   interface Testimonial {
     id: string;
     blurb: string;
