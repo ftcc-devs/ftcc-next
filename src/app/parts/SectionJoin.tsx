@@ -10,7 +10,7 @@ import UIAccordionItem from '../ui/UIAccordionItem';
 function SectionJoin() {
   return (
     <div id='join' className='flex flex-col justify-start md:justify-center items-center w-full px-6 bg-transparent'>
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg py-20 md:py-28'>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg pt-20 md:pt-40 pb-10'>
 
         <HeadingSection 
           subtitle='Membership'
@@ -38,13 +38,6 @@ function SectionJoin() {
         <UIButton href='https://docs.google.com/forms/d/e/1FAIpQLScEbu9rWjeY6MOVN2twtYBfcyzMel6s6o2h-F5nh6gubFOgWA/viewform' target='_blank' version='primary'>Membership form</UIButton>
 
       </div>
-
-      <div className='flex justify-center items-center mb-8 md:mb-20'>
-          <Link href='/#news'>
-          <UISVGArrowDown className='w-6 h-6 md:w-8 md:h-8 stroke-slate-400 hover:stroke-indigo-700 hover:scale-125 transition duration-300' />
-          </Link>
-        </div>
-
 
     </div>
   );

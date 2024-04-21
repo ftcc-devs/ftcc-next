@@ -23,7 +23,7 @@ function HeroHome01() {
       {/* solid background */}
       {/* <div className='-skew-y-2 w-full h-full absolute top-0 left-0 bg-indigo-800 dark:bg-indigo-900'></div> */}
 
-      {/* solid image */}
+      {/* image background */}
       <div className='w-full h-full absolute top-0 left-0 bg-masthead-git-pattern'></div>
 
       {/* connections element */}

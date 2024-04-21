@@ -36,23 +36,6 @@ function Footer() {
             </div>
           </div>
 
-          {/* <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
-            <a href="#" className='hover:text-indigo-100'>Privacy Policy</a>
-            <a href="#" className='hover:text-indigo-100'>Cookie Policy</a>
-            <a href="#" className='hover:text-indigo-100'>Terms and Conditions</a>
-            <a href="#" className='hover:text-indigo-100'>Disclaimer</a>
-          </div> */}
-          
-          {/* <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
-            <a href="#" className='hover:text-indigo-100'>About</a>
-            <a href="#" className='hover:text-indigo-100'>Events</a>
-            <a href="/photos" className='hover:text-indigo-100'>Photo Gallery</a>
-            <a href="#" className='hover:text-indigo-100'>Members</a>
-            <a href="#" className='hover:text-indigo-100'>Blog</a>
-            <a href="#" className='hover:text-indigo-100'>Join</a>
-            <a href="#" className='hover:text-indigo-100'>FAQ</a>
-          </div> */}
-
           <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
             <a href="/photos" className='hover:text-indigo-100'>Photo Gallery</a>
             <a href="/policies/privacypolicy" className='hover:text-indigo-100'>Privacy Policy</a>
@@ -61,11 +44,11 @@ function Footer() {
 
           <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
             <a href="/" className='hover:text-indigo-100'>Home</a>
-            <a href="/#about" className='hover:text-indigo-100'>About</a>
-            <a href="/#services" className='hover:text-indigo-100'>Services</a>
-            <a href="/#join" className='hover:text-indigo-100'>Membership</a>
-            <a href="/#news" className='hover:text-indigo-100'>News</a>
-            <a href="/#contact" className='hover:text-indigo-100'>Contact</a>
+            <a href="/about" className='hover:text-indigo-100'>About</a>
+            <a href="/services" className='hover:text-indigo-100'>Services</a>
+            <a href="/membership" className='hover:text-indigo-100'>Membership</a>
+            <a href="/news" className='hover:text-indigo-100'>News</a>
+            <a href="/contact" className='hover:text-indigo-100'>Contact</a>
           </div>
 
         </div>

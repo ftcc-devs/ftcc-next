@@ -18,6 +18,8 @@ function SectionNews() {
         <SectionMediaMentions />
 
       </div>
+
+      {/* connections background */}
       <div className="bg-connections w-full h-full absolute -z-10 bg-slate-200 -bottom-28 md:-bottom-40 left-0"></div>
     </div>
   );

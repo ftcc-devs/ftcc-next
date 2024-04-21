@@ -22,7 +22,7 @@ function PhotosPage() {
       
       <PageHeader title='Photo Gallery' />
 
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 pb-20 md:pb-28'>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 md:px-0 pb-20 md:pb-28'>
 
         <div className='flex flex-row w-full mt-10 md:mt-24 mb-10 bg-slate-400/10 rounded-lg overflow-hidden'>
           <UIPageNav />
@@ -34,7 +34,7 @@ function PhotosPage() {
         />
 
         <div className='flex flex-col justify-start md:justify-center items-center w-full bg-transparent'>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2"> 
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2"> 
             {galleryphotos.map((photo) => (
               <Link href={`../photos/${photo.id}`} key={photo.id} className='rounded transition duration-300 relative aspect-video overflow-hidden'>
                 <Image

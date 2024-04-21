@@ -33,7 +33,7 @@ const ImageDetailPage: FC<ImageDetailPageProps> = ({ params }) => {
       
       <PageHeader title={photo.title} />
 
-      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 pb-20 md:pb-28'>
+      <div className='flex flex-col justify-start items:start w-full max-w-screen-lg px-6 md:px-0 pb-20 md:pb-28'>
 
       <div className='flex flex-row w-full mt-10 md:mt-24 mb-10 bg-slate-500/10 rounded-lg overflow-hidden'>
           <UIPageNav />
