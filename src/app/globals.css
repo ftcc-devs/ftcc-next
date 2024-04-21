@@ -23,6 +23,13 @@ p {
   position: absolute;
 }
 
+.bg-masthead-git-pattern {
+  background: url('../../public/assets/ui/masthead-pattern.png') repeat bottom;
+  background-size: 1400px;
+  opacity: 1;
+  background-color: #15112b;
+}
+
 #services-gallery .photo {
   overflow: hidden;
   background-size: contain;

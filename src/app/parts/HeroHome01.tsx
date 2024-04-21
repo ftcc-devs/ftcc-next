@@ -4,7 +4,7 @@ import UIHeaderNote from '../ui/UIHeaderNote';
 function HeroHome01() {
   return (
 
-    <div className='flex flex-col w-full items-center relative overflow-hidden text-slate-50'>
+    <div className='flex flex-col w-full items-center relative text-slate-50'>
       <div id='hero01' className='flex flex-col justify-start md:justify-center items-center w-full bg-transparent z-10 px-6 lg:px-12 pt-28 lg:pt-40 pb-8 lg:pb-20'>
         <div className='flex flex-col justify-start items:start md:items-center py-4 md:py-8 w-full max-w-screen-lg'>
 
@@ -21,7 +21,10 @@ function HeroHome01() {
       </div>
 
       {/* solid background */}
-      <div className='w-full h-full absolute top-0 left-0 bg-indigo-800 dark:bg-indigo-900'></div>
+      {/* <div className='-skew-y-2 w-full h-full absolute top-0 left-0 bg-indigo-800 dark:bg-indigo-900'></div> */}
+
+      {/* solid image */}
+      <div className='w-full h-full absolute top-0 left-0 bg-masthead-git-pattern'></div>
 
       {/* connections element */}
       {/* <div className="bg-connections w-full h-full absolute z-0 bg-slate-200 -bottom-40 left-0"></div> */}
