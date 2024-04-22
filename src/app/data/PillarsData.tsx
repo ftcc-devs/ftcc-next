@@ -3,7 +3,7 @@ const pillars = [
     id: '1',
     icon: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/sun-regular-36.png',
     title: 'Filipino Heritage',
-    blurb: 'We are Filipinos by decent and heritage.',
+    blurb: 'We are Filipinos by descent and heritage.',
     description:'',
   },
   {
