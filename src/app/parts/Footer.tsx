@@ -17,7 +17,7 @@ function Footer() {
 
         <div id="footer-menu-row" className='grid grid-cols-3 md:grid-cols-6 gap-4 lg:gap-8 text-md'>
 
-          <div id="footer-logo" className="col-span-3 md:col-span-4  flex flex-col gap-4">
+          <div id="footer-logo" className="col-span-4 md:col-span-3  flex flex-col gap-4">
             <div className='w-[185px]'>
               <Link href='/'>
                 <Image
@@ -40,6 +40,12 @@ function Footer() {
             <a href="/photos" className='hover:text-indigo-100'>Photo Gallery</a>
             <a href="/policies/privacypolicy" className='hover:text-indigo-100'>Privacy Policy</a>
             <a href="/policies/cookiepolicy" className='hover:text-indigo-100'>Cookies Policy</a>
+          </div>
+          
+          <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
+            <a href="/awards" className='hover:text-indigo-100'>Awards 2024</a>
+            <a href="https://www.facebook.com/filotechcanberra/events" target='_blank' className='hover:text-indigo-100'>Events</a>
+            <a href="https://github.com/ftcc-devs" target='_blank' className='hover:text-indigo-100'>Collaborations</a>
           </div>
 
           <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">

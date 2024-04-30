@@ -17,6 +17,8 @@ export default function MembershipPage() {
 
       <SectionJoin />
 
+      <div className='flex flex-row w-full py-16'></div>
+
       <BackToTopButton />
       <Footer />
 
