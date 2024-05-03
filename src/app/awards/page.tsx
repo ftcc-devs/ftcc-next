@@ -9,7 +9,7 @@ import UIAccordionItem from '../ui/UIAccordionItem';
 import Image from 'next/image';
 
 import pasimunoTrophy from '../../../public/assets/images/pasimuno-award.png'
-import techExcellence from '../../../public/assets/images/tech-excellence-2024-logo.png'
+import techiesAward from '../../../public/assets/images/techie-awards.png'
 
 export const metadata: Metadata = {
   title: 'Awards and Recognition'
@@ -35,16 +35,7 @@ export default function AwardsPage() {
           <UIAccordion className='flex flex-col my-3 md:my-8 border border-slate-300 dark:border-slate-500 rounded-xl overflow-hidden *:border-b-slate-300 *:dark:border-b-slate-500'>
             <UIAccordionItem title='Pasimuno Award' className=''>
               <div className='grid grid-cols-6 gap-10'>
-                <div className='col-span-4'>
-                  <p>This prestigious and exclusive award is presented to members with undeniable pioneering character and proven leadership skills.</p>
-                  <p>This year, this award goes to the following members:</p>
-                  <ul className='list-square pl-12 my-8'>
-                    <li>Full name of recepient</li>
-                    <li>Full name of recepient</li>
-                    <li>Full name of recepient</li>
-                  </ul>
-                </div>
-                <div className='col-span-2'>
+                <div className='col-span-6 md:col-span-2'>
                   <Image
                     src={pasimunoTrophy}
                     alt='Pasimuno trophy'
@@ -53,11 +44,7 @@ export default function AwardsPage() {
                     className='px-16 py-8'
                   />
                 </div>
-              </div>
-            </UIAccordionItem>
-            <UIAccordionItem title='Tech Excellence 2023-2024'>
-            <div className='grid grid-cols-6 gap-10'>
-                <div className='col-span-4'>
+                <div className='col-span-6 md:col-span-4'>
                   <p>This prestigious and exclusive award is presented to members with undeniable pioneering character and proven leadership skills.</p>
                   <p>This year, this award goes to the following members:</p>
                   <ul className='list-square pl-12 my-8'>
@@ -66,16 +53,28 @@ export default function AwardsPage() {
                     <li>Full name of recepient</li>
                   </ul>
                 </div>
-                <div className='col-span-2'>
+              </div>
+            </UIAccordionItem>
+            <UIAccordionItem title='Techie Awards'>
+            <div className='grid grid-cols-6 gap-10'>
+                <div className='col-span-6 md:col-span-2'>
                   <Image
-                    src={techExcellence}
+                    src={techiesAward}
                     alt='Tech Excellence 2024'
                     width={500}
                     height={600}
                     className='px-4 py-4'
                   />
                 </div>
-
+                <div className='col-span-6 md:col-span-4'>
+                  <p>This prestigious and exclusive award is presented to members with undeniable pioneering character and proven leadership skills.</p>
+                  <p>This year, this award goes to the following members:</p>
+                  <ul className='list-square pl-12 my-8'>
+                    <li>Full name of recepient</li>
+                    <li>Full name of recepient</li>
+                    <li>Full name of recepient</li>
+                  </ul>
+                </div>
               </div>
             </UIAccordionItem>
           </UIAccordion>

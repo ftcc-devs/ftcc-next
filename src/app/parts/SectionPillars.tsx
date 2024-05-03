@@ -1,7 +1,6 @@
 import React from 'react'
 import pillars from '../data/PillarsData';
 import Image from 'next/image';
-import trophy from '../../../public/assets/ui/trophy-regular-36.png'
 
 function SectionPillars() {
 

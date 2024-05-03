@@ -43,7 +43,9 @@ function Footer() {
           </div>
           
           <div className="flex flex-col gap-2 text-indigo-300 text-base font-heading md:text-right">
-            <a href="/awards" className='hover:text-indigo-100'>Awards 2024</a>
+            <a href="/awards" className='hover:text-indigo-100'>Awards and Recognition</a>
+            <a href="/leadership" className='hover:text-indigo-100'>Leadership</a>
+            <a href="/manifesto" className='hover:text-indigo-100'>Manifesto</a>
             <a href="https://www.facebook.com/filotechcanberra/events" target='_blank' className='hover:text-indigo-100'>Events</a>
             <a href="https://github.com/ftcc-devs" target='_blank' className='hover:text-indigo-100'>Collaborations</a>
           </div>
