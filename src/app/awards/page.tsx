@@ -45,8 +45,8 @@ export default function AwardsPage() {
                   />
                 </div>
                 <div className='col-span-6 md:col-span-4'>
-                  <p>This prestigious and exclusive award is presented to members with undeniable pioneering character and proven leadership skills.</p>
-                  <p>This year, the Pasimuno Award goes to the following members:</p>
+                  <p>This prestigious and exclusive award is presented to members with undeniable pioneering character and exemplary leadership abilities.</p>
+                  <p>In 2024, the Pasimuno Award goes to the following members:</p>
                   <ul className='list-square pl-12 my-8'>
                     <li>Carrie Arvi Vito</li>
                     <li>Michael Dailisan Calizo</li>
@@ -66,8 +66,9 @@ export default function AwardsPage() {
                   />
                 </div>
                 <div className='col-span-6 md:col-span-4'>
-                  <p>This prestigious and exclusive award is presented to members with undeniable pioneering character and proven leadership skills.</p>
-                  <p>This year, the following members were awarded the FTCC Techie Award:</p>
+                  <p>Every year, the FTCC looks for members who has displayed exemplary skills in leadership, innovation, creativity, perseverance and collaboration.</p>
+                  <p>Their achievements in internal/external competitions, projects or events is a source of pride for the rest of the organisation.</p>
+                  <p>In 2024, the following members were awarded the FTCC Techie Award:</p>
                   <ul className='list-square pl-12 my-8'>
                     <li>Louis Abasta</li>
                     <li>Regina Macalandag</li>
