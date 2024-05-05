@@ -36,20 +36,20 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-6 text-indigo-300 text-base font-heading md:text-right *:leading-tight">
+          <div className="flex flex-col gap-4 text-indigo-300 text-base font-heading md:text-right *:leading-tight">
             <a href="/photos" className='hover:text-indigo-100'>Photo Gallery</a>
             <a href="/policies/privacypolicy" className='hover:text-indigo-100'>Privacy Policy</a>
             <a href="/policies/cookiepolicy" className='hover:text-indigo-100'>Cookies Policy</a>
           </div>
           
-          <div className="flex flex-col gap-6 text-indigo-300 text-base font-heading md:text-right *:leading-tight">
+          <div className="flex flex-col gap-4 text-indigo-300 text-base font-heading md:text-right *:leading-tight">
             <a href="/awards" className='hover:text-indigo-100'>Awards and Recognition</a>
             <a href="/leadership" className='hover:text-indigo-100'>Leadership</a>
             <a href="https://www.facebook.com/filotechcanberra/events" target='_blank' className='hover:text-indigo-100'>Events</a>
             <a href="https://github.com/ftcc-devs" target='_blank' className='hover:text-indigo-100'>Collaborations</a>
           </div>
 
-          <div className="flex flex-col gap-6 text-indigo-300 text-base font-heading md:text-right *:leading-tight">
+          <div className="flex flex-col gap-4 text-indigo-300 text-base font-heading md:text-right *:leading-tight">
             <a href="/" className='hover:text-indigo-100'>Home</a>
             <a href="/about" className='hover:text-indigo-100'>About</a>
             <a href="/services" className='hover:text-indigo-100'>Services</a>

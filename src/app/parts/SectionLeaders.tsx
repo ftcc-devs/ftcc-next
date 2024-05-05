@@ -22,9 +22,9 @@ function SectionLeaders() {
 
   const pillarslist = 
     leadership2024.map((lead) => 
-      <div key={lead.id} className='col-span-6 md:col-span-3 grid grid-cols-6 gap-4 hover:-translate-y-2 transition duration-300'>
+      <div key={lead.id} className='col-span-6 md:col-span-3 grid grid-cols-6 gap-4 hover:-translate-y-2 hover:saturate-0 transition duration-300'>
         <Image
-          src={blankProfile}
+          src={lead.imageurl}
           alt={lead.name}
           width={800}
           height={800}
@@ -32,7 +32,7 @@ function SectionLeaders() {
           style={{
             objectFit: 'cover',
           }}
-          className='col-span-6 md:col-span-6'
+          className='col-span-6 md:col-span-6 rounded-2xl'
         />
         <div className="col-span-6 md:col-span-6">
           <div className='font-bold'>{lead.name}</div>

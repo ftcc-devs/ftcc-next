@@ -1,7 +1,7 @@
 const leadership2024 = [
   {
     id: '1',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/ryan-macalandag-photo.jpg',
     name: 'Ryan Macalandag',
     position: 'President',
     links:[
@@ -14,7 +14,7 @@ const leadership2024 = [
   },
   {
     id: '2',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/ahira-martin-photo.jpg',
     name: 'Ahira Martin',
     position: 'VP Internal',
     links:[
@@ -27,7 +27,7 @@ const leadership2024 = [
   },
   {
     id: '3',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/deth-guarin-photo.jpg',
     name: 'Deth Guarin',
     position: 'VP External',
     links:[
@@ -40,7 +40,7 @@ const leadership2024 = [
   },
   {
     id: '4',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/louis-abasta-photo.jpg',
     name: 'Louis Abasta',
     position: 'Secretary',
     links:[
@@ -53,7 +53,7 @@ const leadership2024 = [
   },
   {
     id: '5',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/bryan-pajarito-photo.jpg',
     name: 'Bryan Pajarito',
     position: 'Treasurer',
     links:[
@@ -72,7 +72,7 @@ export default leadership2024;
 export const committeeleads2024 = [
   {
     id: '1',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/ahira-martin-photo.jpg',
     name: 'Ahira Martin',
     position: 'Memberships Committee',
     links:[
@@ -85,7 +85,7 @@ export const committeeleads2024 = [
   },
   {
     id: '2',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/bianca-gabalfin-photo.jpg',
     name: 'Bianca Gabalfin',
     position: 'Engagements',
     links:[
@@ -98,7 +98,7 @@ export const committeeleads2024 = [
   },
   {
     id: '3',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/bryan-pajarito-photo.jpg',
     name: 'Bryan Pajarito',
     position: 'Career Development',
     links:[
@@ -111,7 +111,7 @@ export const committeeleads2024 = [
   },
   {
     id: '4',
-    imageurl: 'https://ftcc-public.s3.ap-southeast-2.amazonaws.com/ftcc-lunch-and-learn-dec-2022-14.jpg',
+    imageurl: '/assets/leads/deth-guarin-photo.jpg',
     name: 'Deth Guarin',
     position: 'Partnerships',
     links:[
