@@ -24,7 +24,7 @@ p {
 }
 
 .bg-masthead-git-pattern {
-  background: url('../../public/assets/ui/masthead-pattern.png') repeat bottom;
+  background: url('../../public/assets/images/masthead-pattern-aga.png') repeat bottom left;
   background-size: 1300px;
   opacity: 1;
   background-color: #15112b;
