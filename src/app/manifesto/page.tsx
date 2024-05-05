@@ -29,9 +29,9 @@ export default function ManifestoPage() {
       {/* <PageHeader title='Manifesto' /> */}
 
       {/* Slide 01 */}
-      <div id='slide-01' className='w-full min-h-screen h-full flex flex-col justify-center items-center bg-orange-50 relative p-12'>
+      <div id='slide-01' className='w-full min-h-[100dvh] h-full flex flex-col justify-center items-center bg-orange-50 relative p-12'>
             
-        <div className='text-6xl md:text-8xl tracking-tighter italic'>
+        <div className='text-6xl md:text-8xl tracking-tighter italic dark:text-slate-800'>
           This is the way
         </div>
 
@@ -43,7 +43,7 @@ export default function ManifestoPage() {
 
       </div>
       {/* Slide 02 */}
-      <div id='slide-02' className='w-full h-full min-h-screen flex flex-col justify-center items-center bg-slate-800 relative p-12'>
+      <div id='slide-02' className='w-full h-full min-h-[100dvh] flex flex-col justify-center items-center bg-slate-800 relative p-12'>
             
           <div className="w-full h-full grid grid-cols-12 place-content-center gap-8">
             <Image
@@ -62,7 +62,7 @@ export default function ManifestoPage() {
         </div>
       </div>
       {/* Slide 03 */}
-      <div id='slide-03' className='w-full h-full min-h-screen flex flex-col justify-center items-center bg-orange-50 relative'>
+      <div id='slide-03' className='w-full h-full min-h-[100dvh] flex flex-col justify-center items-center bg-orange-50 relative'>
             
           <div className="w-full grid grid-cols-12 place-content-center gap-8 px-32">
             <Image
@@ -84,7 +84,7 @@ export default function ManifestoPage() {
         </div>
       </div>
       {/* Slide 04 */}
-      <div id='slide-04' className='w-full min-h-screen flex flex-col justify-center items-center bg-orange-100 relative'>
+      <div id='slide-04' className='w-full min-h-[100dvh] flex flex-col justify-center items-center bg-orange-100 relative'>
             
           <div className="md:w-[4/5] h-full grid grid-cols-12 place-content-center gap-4 p-12">
             <div className='col-span-12 md:col-span-4 px-12 flex flex-col gap-4 md:gap-12 justify-center items-center'>
@@ -135,7 +135,7 @@ export default function ManifestoPage() {
         </div>
       </div>
       {/* Slide 05 */}
-      <div id='slide-05' className='w-full h-full min-h-screen flex flex-col justify-center items-center bg-indigo-900 relative'>
+      <div id='slide-05' className='w-full h-full min-h-[100dvh] flex flex-col justify-center items-center bg-indigo-900 relative'>
             
           <div className="w-full grid grid-cols-12 place-content-center gap-8 px-32">
             <Image
@@ -158,7 +158,7 @@ export default function ManifestoPage() {
         </div>
       </div>
       {/* Slide 06 */}
-      <div id='slide-06' className='w-full min-h-screen h-full flex flex-col gap-20 justify-center items-center bg-indigo-700 relative p-12'>
+      <div id='slide-06' className='w-full min-h-[100dvh] h-full flex flex-col gap-20 justify-center items-center bg-indigo-700 relative p-12'>
             
         <Image
           src={logofullreverse}

@@ -46,11 +46,10 @@ export default function AwardsPage() {
                 </div>
                 <div className='col-span-6 md:col-span-4'>
                   <p>This prestigious and exclusive award is presented to members with undeniable pioneering character and proven leadership skills.</p>
-                  <p>This year, this award goes to the following members:</p>
+                  <p>This year, the Pasimuno Award goes to the following members:</p>
                   <ul className='list-square pl-12 my-8'>
-                    <li>Full name of recepient</li>
-                    <li>Full name of recepient</li>
-                    <li>Full name of recepient</li>
+                    <li>Carrie Arvi Vito</li>
+                    <li>Michael Dailisan Calizo</li>
                   </ul>
                 </div>
               </div>
@@ -68,11 +67,13 @@ export default function AwardsPage() {
                 </div>
                 <div className='col-span-6 md:col-span-4'>
                   <p>This prestigious and exclusive award is presented to members with undeniable pioneering character and proven leadership skills.</p>
-                  <p>This year, this award goes to the following members:</p>
+                  <p>This year, the following members were awarded the FTCC Techie Award:</p>
                   <ul className='list-square pl-12 my-8'>
-                    <li>Full name of recepient</li>
-                    <li>Full name of recepient</li>
-                    <li>Full name of recepient</li>
+                    <li>Louis Abasta</li>
+                    <li>Regina Macalandag</li>
+                    <li>Ryan Macalandag</li>
+                    <li>Ahira Martin</li>
+                    <li>Bryan Pajarito</li>
                   </ul>
                 </div>
               </div>
