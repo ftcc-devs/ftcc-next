@@ -48,11 +48,11 @@ function SectionServices() {
             <h4 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Programs</h4>
             <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-200 *:dark:border-slate-700 *:pb-5 *:font-medium">
               <li>{bulletchecked}Leadership Program</li>
+              <li>{bulletchecked}Career Development Program</li>
               <li>{bulletchecked}Fireside Chats</li>
               <li>{bulletchecked}FTCC Volunteer Devs Program</li>
               <li>{bulletchecked}Monthly Socials</li>
               <li>{bullet}Skills Development Workshops</li>
-              <li>{bullet}Resume Writing Classes</li>
               <li>{bullet}Annual FTCC Hackathon</li>
             </ul>
           </div>
@@ -60,9 +60,10 @@ function SectionServices() {
           <div  className='mb-8 col-span-2 md:col-span-2'>
             <h4 className='uppercase font-bold mt-8 md:mt-0 mb-8 tracking-wider pb-4'>Services</h4>
             <ul className="flex flex-col gap-5 font-heading leading-tight *:flex *:gap-2 *:border-b *:border-slate-200 *:dark:border-slate-700 *:pb-5 *:font-medium">
+              <li>{bulletchecked}JobSeeker Helpdesk</li>
               <li>{bulletchecked}Resume Review</li>
               <li>{bullet}Mock Interviews</li>
-              <li>{bullet}Job Boards</li>
+              <li>{bullet}Jobs Board</li>
               <li>{bullet}Internship Reference</li>
             </ul>
           </div>

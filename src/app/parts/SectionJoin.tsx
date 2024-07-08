@@ -35,7 +35,11 @@ function SectionJoin() {
           </UIAccordionItem>
         </UIAccordion>
 
-        <UIButton href='https://docs.google.com/forms/d/e/1FAIpQLScEbu9rWjeY6MOVN2twtYBfcyzMel6s6o2h-F5nh6gubFOgWA/viewform' target='_blank' version='primary'>Membership form</UIButton>
+        <div className="flex flex-col md:flex-row gap-4">
+          <UIButton href='https://docs.google.com/forms/d/e/1FAIpQLScEbu9rWjeY6MOVN2twtYBfcyzMel6s6o2h-F5nh6gubFOgWA/viewform' target='_blank' version='primary'>Membership form</UIButton>
+          <UIButton href='https://buy.stripe.com/3cs9Cw7Ov2l2ffibII' version='secondary'>Pay Annual Fee</UIButton>
+        </div>
+
 
       </div>
 

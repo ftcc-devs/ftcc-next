@@ -13,7 +13,7 @@ import SectionLeaders from '../parts/SectionLeaders';
 import SectionCommittees from '../parts/SectionCommittees';
 
 export const metadata: Metadata = {
-  title: 'Awards and Recognition'
+  title: 'Leadership'
 }
 
 export default function LeadershipPage() {

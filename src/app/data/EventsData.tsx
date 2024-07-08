@@ -6,7 +6,7 @@ const events : FTCCEvent[] = [
     venue: 'AWS Offices Canberra',
     fblink: 'https://www.facebook.com/events/7301289616591606',
     googlecalendarlink: 'https://calendar.google.com/calendar/u/1/r/eventedit?text=FTCC+Inaugural+General+Assembly&dates=20240503T180000/20240503T200000&location=AWS%20Canberra',
-    highlight: true,
+    highlight: false,
   },
   {
     id: '2',
@@ -24,7 +24,7 @@ const events : FTCCEvent[] = [
     venue: 'AWS Offices Canberra',
     fblink: 'https://govhack.org',
     googlecalendarlink: 'https://calendar.google.com/calendar/u/1/r/eventedit?text=GovHack+2024&dates=20240908T160000/20240910T160000',
-    highlight: false,
+    highlight: true,
   },
 ]
 

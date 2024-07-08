@@ -1,8 +1,9 @@
-import fs from 'fs'
-import path from 'path'
+import fs, { readdirSync } from 'fs';
 import matter from 'gray-matter';
+import path from 'path';
 
-const postsDirectory = path.join(process.cwd(), 'markdown');
+const postsDirectory = path.join(process.cwd(), 'posts');
+console.log(postsDirectory)
 
 export function getSortedPostsData() {
   // Get file names under /posts
@@ -17,7 +18,6 @@ export function getSortedPostsData() {
 
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
-    console.log(matterResult)
 
     // Combine the data with the id
     return {
@@ -26,9 +26,7 @@ export function getSortedPostsData() {
     };
   });
   // Sort posts by date
-  return 'hello';
-  
-  // allPostsData.sort((a, b) => {
+  // return allPostsData.sort((a, b) => {
   //   if (a.date < b.date) {
   //     return 1;
   //   } else {

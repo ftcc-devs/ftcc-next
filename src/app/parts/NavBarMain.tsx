@@ -45,7 +45,7 @@ function NavBarMain() {
             <li><Link href="/services" className='hover:text-indigo-500'>Services</Link></li>
             <li><Link href="/membership" className='hover:text-indigo-500'>Membership</Link></li>
             <li><Link href="/news" className='hover:text-indigo-500'>News</Link></li>
-            <li><Link href="/contact-us" className='hover:text-indigo-500'>Contact</Link></li>
+            <li><Link href="/contact" className='hover:text-indigo-500'>Contact</Link></li>
           </ul>
           <div id="nav-utils" className={`flex lg:flex-row justify-start items-center p-2 gap-3 flex-row mb-20 lg:mb-0 ${menuToggle ? 'flex-row' : ''}`}>
               <Link href="https://facebook.com/filotechcanberra" target='_blank'>

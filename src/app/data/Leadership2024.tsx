@@ -28,7 +28,7 @@ const leadership2024 = [
   {
     id: '3',
     imageurl: '/assets/leads/deth-guarin-photo.jpg',
-    name: 'Deth Guarin',
+    name: 'Mildred Guarin',
     position: 'VP External',
     links:[
       {
@@ -112,7 +112,7 @@ export const committeeleads2024 = [
   {
     id: '4',
     imageurl: '/assets/leads/deth-guarin-photo.jpg',
-    name: 'Deth Guarin',
+    name: 'Mildred Guarin',
     position: 'Partnerships',
     links:[
       {

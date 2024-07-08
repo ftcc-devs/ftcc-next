@@ -4,6 +4,7 @@ import { Metadata } from "next";
 
 import BackToTopButton from '../parts/BackToTopButton';
 import SectionJoin from '../parts/SectionJoin';
+import SectionMembershipPay from '../parts/SectionMembershipPay';
 
 export const metadata: Metadata = {
   title: 'Membership'
